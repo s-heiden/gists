@@ -43,7 +43,9 @@ imsg() {
             "${*:2}"
 }
 
+#
 # Usage chromify
+#
 chromify() { 
-    python ~/.Import_Chrome_Bookmarks_To_Safari.py 
+    python ~/Repositories/gists/Import_Chrome_Bookmarks_To_Safari.py 
 }
