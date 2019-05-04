@@ -1,18 +1,11 @@
 # !/usr/bin/env python
 #
-# Title:        Import_Chrome_Bookmarks_To_Safari.py
-# Author:       binss, s-heiden
-#
-# README:
-# 1) move the file you are reading to ~
-# 2) make sure, terminal has full disk access: http://osxdaily.com/2018/10/09/fix-operation-not-permitted-terminal-error-macos/
-# 3) add to ~./bash_profile 
-#  chromify() { 
-#     python ~/.Import_Chrome_Bookmarks_To_Safari.py 
-# }
+# Title:            Import_Chrome_Bookmarks_To_Safari.py
+# Author:           binss, s-heiden
+# Setup:            make sure, terminal has full disk access: http://osxdaily.com/2018/10/09/fix-operation-not-permitted-terminal-error-macos/
 # 
 
-from biplist import *
+import biplist
 import json
 import datetime
 import os
@@ -102,11 +95,11 @@ def main():
     chrome_path = home_path + "/Library/Application Support/Google/Chrome/Default/Bookmarks"
 
     if not os.path.exists(safari_path):
-        print "[Error]The bookmarks files of safari is not exist! path: " + safari_path
+        print "[Error] The bookmark files of safari do not exist! path: " + safari_path
         return
 
     if not os.path.exists(chrome_path):
-        print "[Error]The bookmarks files of chrome is not exist! path: " + chrome_path
+        print "[Error] The bookmark files of chrome do not exist! path: " + chrome_path
         return
 
     bookmark_manager = BookmarkManager()
