@@ -1,7 +1,7 @@
 declare module namespace {
 
     export interface SafariBookmarks {
-        Children: Node[];
+        Children: SafariNode[];
         WebBookmarkType: string;
     }
 
@@ -9,13 +9,14 @@ declare module namespace {
         title: string;
     }
 
-    export interface Node {             
-        Children: Node[];               // iff Type = "WebBookmarkTypeList"
+    export interface SafariNode {
         ShouldOmitFromUI?: boolean;     // iff Title = "com.apple.ReadingList"
-        Title: string;                  // iff Type = "WebBookmarkTypeList"
-        URIDictionary?: URIDictionary;  // iff Type = "WebBookmarkTypeLeaf"
-        URLString?: string;             // iff Type = "WebBookmarkTypeLeaf"
         WebBookmarkIdentifier: string;   // iff Type = "WebBookmarkTypeProxy"
+        URIDictionary?: URIDictionary;  // iff Type = "WebBookmarkTypeLeaf"
+        URLString?: string;             // iff Type = "WebBookmarkTypeLeaf"      
+        Children: SafariNode[];               // iff Type = "WebBookmarkTypeList"
+        Title: string;                  // iff Type = "WebBookmarkTypeList"
+
         WebBookmarkType: string;        // "WebBookmarkTypeList" | "WebBookmarkTypeLeaf" | "WebBookmarkTypeProxy"
     }
 

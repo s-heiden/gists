@@ -12,6 +12,7 @@ import os
 import sys
 import shutil
 
+
 class BookmarkManager:
     def __init__(self):
         self.bookmarks = []
@@ -26,7 +27,6 @@ class BookmarkManager:
 
     def get_number(self):
         return self.number
-
 
 
 def main():
@@ -47,18 +47,77 @@ def main():
 
     with open(safari_path, "r") as f:
         try:
-            plist = readPlist(safari_path)
-            print plist
-            iterate_children(plist)
+            safari_bookmarks = readPlist(safari_path)
+            # print safari_bookmarks
+            chrome_bookmarks = parse(safari_bookmarks)
+            print chrome_bookmarks
         except (InvalidPlistException, NotBinaryPlistException), e:
             print "Not a plist:", e
 
-def iterate_uri_dictionary(object):
-    title = "title"
-    if title in object:
-        print "    " + object[title]
 
+def uri_dictionary_to_bookmark_title(object):
+    title_key = "title"
+    if title_key in object:
+        return object[title_key]
+    else:
+        print 'Warning: No title element in URIDictionary.'
+
+
+#
+#
+#
+def parse(safari_bookmarks):
+    children_node = safari_bookmarks['Children']
+    print children_node
+
+    chrome_bookmarks = {
+        'version': 1,
+        'roots': {
+            'synced': {
+                'type': 'Folder',
+                'children': []
+            },
+            'other': get_other(children_node),
+            'bookmark_bar': get_bookmark_bar(children_node)
+        }
+    }
+    return chrome_bookmarks
+
+
+#
+#
+#
+def get_other(children_node):
+    # TODO: Implement!
+    return {}
+
+
+#
+#
+#
+def get_bookmark_bar(children_node):
+    # TODO: Complete!
+    title_key = 'title'
+    bookmarks_bar_title = 'BookmarksBar'
+
+    bookmarks_bar_node = filter(
+        lambda child_node: title_key in child_node and child_node[title_key] == bookmarks_bar_title,
+        children_node
+    )
+
+    bookmark_bar = {
+        'children': [],
+        'type': 'folder'
+    }
+
+    return bookmark_bar
+
+
+# TODO: delete after completion
 def iterate_children(object):
+    #
+    # define constants
+    #
     children = "Children"
     title = "Title"
     should_omit_from_ui = "ShouldOmitFromUI"
@@ -80,15 +139,15 @@ def iterate_children(object):
         print "  " + object[url_string]
     if web_bookmark_identifier in object:
         print "  WebBookmarkIdentifier = " + object[web_bookmark_identifier]
+
+    #
     if uri_dictionary in object:
-        iterate_uri_dictionary(object[uri_dictionary])
+        uri_dictionary_to_bookmark_title(object[uri_dictionary])
     if children in object:
         for obj in object[children]:
             iterate_children(obj)
 
 
-
 if __name__ == '__main__':
     sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), "site-packages"))
     main()
-

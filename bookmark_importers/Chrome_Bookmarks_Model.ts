@@ -1,21 +1,21 @@
 declare module namespace {
 
-    export interface Bookmarks {
+    export interface ChromeBookmarks {
         version: number; // = 1
-        roots: RootNodes;
+        roots: RootNode;
     }
 
-    export interface RootNodes {
-        bookmark_bar: Node;         // bookmark bar
-        other: Node;                // unsorted bookmarks
-        synced: Node;               // = { type: "Folder", children: [] }
+    export interface RootNode {
+        bookmark_bar: ChromeNode;       // bookmark bar
+        other: ChromeNode;              // unsorted bookmarks
+        synced: ChromeNode;             // = { type: "Folder", children: [] }
     }
 
-    export interface Node {
-        children?: Node[];          // exists if type = "folder"
-        name?: string;              // exists for all except "bookmark_bar", "other", and "synced" props of RootNodes
-        type: string;               // "url" | "folder"
-        url?: string;               // exists if type = "url"
+    export interface ChromeNode {
+        children?: ChromeNode[];        // exists if type = "folder"
+        name?: string;                  // exists for all except "bookmark_bar", "other", and "synced" props of RootNode
+        type: string;                   // "url" | "folder"
+        url?: string;                   // exists if type = "url"
     }
 
 }
