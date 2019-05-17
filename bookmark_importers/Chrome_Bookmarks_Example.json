@@ -1,0 +1,1166 @@
+{
+    "checksum": "bb8f50286d259d81a2186c476abdbad2",
+    "version": 1,
+    "roots": {
+        "synced": {
+            "name": "Mobile Lesezeichen",
+            "date_modified": "0",
+            "children": [],
+            "date_added": "13131301664557045",
+            "type": "folder",
+            "id": "3"
+        },
+        "sync_transaction_version": "15772",
+        "bookmark_bar": {
+            "name": "Lesezeichenleiste",
+            "date_modified": "13202582604893508",
+            "children": [
+                {
+                    "meta_info": {
+                        "last_visited_desktop": "13201889238652243"
+                    },
+                    "name": "Outlook",
+                    "url": "https: //outlook.office365.com/",
+                    "sync_transaction_version": "15772",
+                    "date_added": "13186238630188674",
+                    "type": "url",
+                    "id": "427"
+                },
+                {
+                    "meta_info": {
+                        "last_visited_desktop": "13201685947383405"
+                    },
+                    "name": "Projectile",
+                    "url": "https://project.iteratec.de/projectile/start",
+                    "sync_transaction_version": "15580",
+                    "date_added": "13183140343237967",
+                    "type": "url",
+                    "id": "363"
+                },
+                {
+                    "name": "Iteratec",
+                    "date_modified": "13201621285388368",
+                    "children": [
+                        {
+                            "name": "CTF",
+                            "date_modified": "13169492168522302",
+                            "children": [
+                                {
+                                    "meta_info": {
+                                        "last_visited_desktop": "13169491736905552"
+                                    },
+                                    "name": "CTF Protokoll Wien",
+                                    "url": "https://docs.google.com/document/d/19havwh5GhGsNSJFDaG-lDCZDVQVTFosKoR7pxrW-CFs/edit#",
+                                    "sync_transaction_version": "4548",
+                                    "date_added": "13167227673825743",
+                                    "type": "url",
+                                    "id": "241"
+                                },
+                                {
+                                    "meta_info": {
+                                        "last_visited_desktop": "13168001154197435"
+                                    },
+                                    "name": "RancherHowtoInstall",
+                                    "url": "https://rancher.iteratec.de:8443/env/1a935/catalog/SecureCodeBox%20(PROD):security-ctf",
+                                    "sync_transaction_version": "3166",
+                                    "date_added": "13155656652846848",
+                                    "type": "url",
+                                    "id": "145"
+                                },
+                                {
+                                    "meta_info": {
+                                        "last_visited_desktop": "13167419078725897"
+                                    },
+                                    "name": "Rancher",
+                                    "url": "https://rancher.iteratec.de:8443/env/1a935/apps/stacks/1st102",
+                                    "sync_transaction_version": "2477",
+                                    "date_added": "13155304353267555",
+                                    "type": "url",
+                                    "id": "143"
+                                },
+                                {
+                                    "meta_info": {
+                                        "last_visited_desktop": "13199548676906211"
+                                    },
+                                    "name": "CTF@iterawiki",
+                                    "url": "https://iteraweb.iteratec.de/confluence/pages/viewpage.action?pageId=122880669",
+                                    "sync_transaction_version": "15698",
+                                    "date_added": "13155656104531668",
+                                    "type": "url",
+                                    "id": "146"
+                                }
+                            ],
+                            "sync_transaction_version": "15349",
+                            "date_added": "13167384520166675",
+                            "type": "folder",
+                            "id": "247"
+                        },
+                        {
+                            "name": "LeanStartBoard",
+                            "date_modified": "13202319712388208",
+                            "children": [
+                                {
+                                    "meta_info": {
+                                        "last_visited_desktop": "13199965305062649"
+                                    },
+                                    "name": "IteraBoard",
+                                    "url": "http://localhost:4200/",
+                                    "sync_transaction_version": "15698",
+                                    "date_added": "13167384777213485",
+                                    "type": "url",
+                                    "id": "251"
+                                },
+                                {
+                                    "meta_info": {
+                                        "last_visited_desktop": "13165330895703847"
+                                    },
+                                    "name": "fabricjs - Using fabric js with Angular 4 - Stack Overflow",
+                                    "url": "https://stackoverflow.com/questions/45941730/using-fabric-js-with-angular-4",
+                                    "sync_transaction_version": "2333",
+                                    "date_added": "13165329864091178",
+                                    "type": "url",
+                                    "id": "189"
+                                },
+                                {
+                                    "meta_info": {
+                                        "last_visited_desktop": "13165332421267543"
+                                    },
+                                    "name": "angular-cli - javascript - using external JS libraries in my angular 2 project - Stack Overflow",
+                                    "url": "https://stackoverflow.com/questions/41120754/using-external-js-libraries-in-my-angular-2-project",
+                                    "sync_transaction_version": "2334",
+                                    "date_added": "13165332421267230",
+                                    "type": "url",
+                                    "id": "190"
+                                },
+                                {
+                                    "meta_info": {
+                                        "last_visited_desktop": "13165410970830082"
+                                    },
+                                    "name": "Bind Angular 2+ to JS-callback",
+                                    "url": "https://stackoverflow.com/questions/38245450/angular2-components-this-is-undefined-when-executing-callback-function",
+                                    "sync_transaction_version": "2344",
+                                    "date_added": "13165410970828241",
+                                    "type": "url",
+                                    "id": "192"
+                                },
+                                {
+                                    "meta_info": {
+                                        "last_visited_desktop": "13169477774628902"
+                                    },
+                                    "name": "Angular 2+ Best Practices",
+                                    "url": "https://hackernoon.com/best-practices-learnt-from-delivering-a-quality-angular4-application-2cd074ea53b3",
+                                    "sync_transaction_version": "4480",
+                                    "date_added": "13165399983910138",
+                                    "type": "url",
+                                    "id": "193"
+                                },
+                                {
+                                    "meta_info": {
+                                        "last_visited_desktop": "13166017028530995"
+                                    },
+                                    "name": " Angular 2 @ViewChild in *ngIf",
+                                    "url": "https://stackoverflow.com/questions/39366981/angular-2-viewchild-in-ngif",
+                                    "sync_transaction_version": "2367",
+                                    "date_added": "13166016271632898",
+                                    "type": "url",
+                                    "id": "198"
+                                },
+                                {
+                                    "meta_info": {
+                                        "last_visited_desktop": "13166119732213573"
+                                    },
+                                    "name": "Angular in Docker with Nginx",
+                                    "url": "https://medium.com/@tiangolo/angular-in-docker-with-nginx-supporting-environments-built-with-multi-stage-docker-builds-bb9f1724e984",
+                                    "sync_transaction_version": "2375",
+                                    "date_added": "13166115948357966",
+                                    "type": "url",
+                                    "id": "199"
+                                },
+                                {
+                                    "meta_info": {
+                                        "last_visited_desktop": "13166181203265056"
+                                    },
+                                    "name": "Docker image push over SSH",
+                                    "url": "https://stackoverflow.com/questions/31575546/docker-image-push-over-ssh-distributed?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa",
+                                    "sync_transaction_version": "2377",
+                                    "date_added": "13166116635214832",
+                                    "type": "url",
+                                    "id": "200"
+                                },
+                                {
+                                    "meta_info": {
+                                        "last_visited_desktop": "13166119727529667"
+                                    },
+                                    "name": "assign a port mapping to Docker container",
+                                    "url": "https://stackoverflow.com/questions/19335444/how-do-i-assign-a-port-mapping-to-an-existing-docker-container?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa",
+                                    "sync_transaction_version": "2375",
+                                    "date_added": "13166116693928330",
+                                    "type": "url",
+                                    "id": "201"
+                                },
+                                {
+                                    "meta_info": {
+                                        "last_visited_desktop": "13166120787697134"
+                                    },
+                                    "name": "Post-installation steps for Docker",
+                                    "url": "https://docs.docker.com/install/linux/linux-postinstall/#configure-where-the-docker-daemon-listens-for-connections",
+                                    "sync_transaction_version": "2376",
+                                    "date_added": "13166118993608728",
+                                    "type": "url",
+                                    "id": "202"
+                                },
+                                {
+                                    "meta_info": {
+                                        "last_visited_desktop": "13166182711493605"
+                                    },
+                                    "name": "Without password - Shell Script for logging into a ssh server",
+                                    "url": "https://unix.stackexchange.com/questions/31071/shell-script-for-logging-into-a-ssh-server",
+                                    "sync_transaction_version": "2378",
+                                    "date_added": "13166182711493021",
+                                    "type": "url",
+                                    "id": "203"
+                                },
+                                {
+                                    "meta_info": {
+                                        "last_visited_desktop": "13176466421193810"
+                                    },
+                                    "name": "Building a random particle generator Ionic app",
+                                    "url": "http://masteringionic.com/blog/2017-12-05-creating-a-random-particle-generator-with-html5-canvas-api-and-ionic-framework/",
+                                    "sync_transaction_version": "6229",
+                                    "date_added": "13165069764690912",
+                                    "type": "url",
+                                    "id": "181"
+                                },
+                                {
+                                    "meta_info": {
+                                        "last_visited_desktop": "13166007547956553"
+                                    },
+                                    "name": "ng-tut",
+                                    "url": "https://www.youtube.com/watch?v=fPtacabLEJc",
+                                    "sync_transaction_version": "2446",
+                                    "date_added": "13164927404146237",
+                                    "type": "url",
+                                    "id": "180"
+                                },
+                                {
+                                    "meta_info": {
+                                        "last_visited_desktop": "13167348862991301"
+                                    },
+                                    "name": "javascript - How to use / include fabricjs in Angular2 - Stack Overflow",
+                                    "url": "https://stackoverflow.com/questions/40036374/how-to-use-include-fabricjs-in-angular2?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa",
+                                    "sync_transaction_version": "2461",
+                                    "date_added": "13167348862990229",
+                                    "type": "url",
+                                    "id": "246"
+                                },
+                                {
+                                    "meta_info": {
+                                        "last_visited_desktop": "13167298946814573"
+                                    },
+                                    "name": "javascript - Undo Redo History for Canvas FabricJs - Stack Overflow",
+                                    "url": "https://stackoverflow.com/questions/22338080/undo-redo-history-for-canvas-fabricjs",
+                                    "sync_transaction_version": "2462",
+                                    "date_added": "13167251303547536",
+                                    "type": "url",
+                                    "id": "245"
+                                },
+                                {
+                                    "meta_info": {
+                                        "last_visited_desktop": "13167298946805101"
+                                    },
+                                    "name": "Undo/Redo mit Fabric JS",
+                                    "url": "http://jsfiddle.net/gcollect/b3aMF/",
+                                    "sync_transaction_version": "2462",
+                                    "date_added": "13167247628652657",
+                                    "type": "url",
+                                    "id": "244"
+                                },
+                                {
+                                    "meta_info": {
+                                        "last_visited_desktop": "13167298946794262"
+                                    },
+                                    "name": "Per-pixel collision detection kangax/fabric.js",
+                                    "url": "https://github.com/kangax/fabric.js/issues/595",
+                                    "sync_transaction_version": "2462",
+                                    "date_added": "13167236296019078",
+                                    "type": "url",
+                                    "id": "243"
+                                },
+                                {
+                                    "meta_info": {
+                                        "last_visited_desktop": "13167298946786875"
+                                    },
+                                    "name": "Selection Rectangle with JS",
+                                    "url": "https://jsfiddle.net/lannymcnie/gg8sv4cq/",
+                                    "sync_transaction_version": "2462",
+                                    "date_added": "13167231175711036",
+                                    "type": "url",
+                                    "id": "242"
+                                },
+                                {
+                                    "meta_info": {
+                                        "last_visited_desktop": "13167389019520957"
+                                    },
+                                    "name": "How to create your own TypeScript type definition files (.d.ts) and contribute to DefinitelyTyped on GitHub",
+                                    "url": "http://blog.wolksoftware.com/contributing-to-definitelytyped",
+                                    "sync_transaction_version": "2464",
+                                    "date_added": "13167389019520356",
+                                    "type": "url",
+                                    "id": "255"
+                                },
+                                {
+                                    "meta_info": {
+                                        "last_visited_desktop": "13167413282893219"
+                                    },
+                                    "name": "Custom Fabric build",
+                                    "url": "http://fabricjs.com/build/",
+                                    "sync_transaction_version": "2474",
+                                    "date_added": "13167413282891638",
+                                    "type": "url",
+                                    "id": "257"
+                                },
+                                {
+                                    "meta_info": {
+                                        "last_visited_desktop": "13194460706957087"
+                                    },
+                                    "name": "Angular Folder Structure",
+                                    "url": "https://medium.com/@motcowley/angular-folder-structure-d1809be95542",
+                                    "sync_transaction_version": "13245",
+                                    "date_added": "13167494838149231",
+                                    "type": "url",
+                                    "id": "258"
+                                },
+                                {
+                                    "meta_info": {
+                                        "last_visited_desktop": "13173356570299097"
+                                    },
+                                    "name": "SVG.js | Elements",
+                                    "url": "http://svgjs.com/elements/",
+                                    "sync_transaction_version": "6014",
+                                    "date_added": "13167771213647735",
+                                    "type": "url",
+                                    "id": "263"
+                                },
+                                {
+                                    "meta_info": {
+                                        "last_visited_desktop": "13168375007886576"
+                                    },
+                                    "name": "mrin9/Angular-SpringBoot-REST-JWT: Springboot, Angular and JWT security - Example Project based on Northwind Order Processing",
+                                    "url": "https://github.com/mrin9/Angular-SpringBoot-REST-JWT",
+                                    "sync_transaction_version": "3911",
+                                    "date_added": "13168375007884809",
+                                    "type": "url",
+                                    "id": "276"
+                                },
+                                {
+                                    "meta_info": {
+                                        "last_visited_desktop": "13173705429381740"
+                                    },
+                                    "name": "Build a Basic CRUD App with Angular 5.0 and Spring Boot 2.0 | Okta Developer",
+                                    "url": "https://developer.okta.com/blog/2017/12/04/basic-crud-angular-and-spring-boot",
+                                    "sync_transaction_version": "6015",
+                                    "date_added": "13168777795272963",
+                                    "type": "url",
+                                    "id": "279"
+                                },
+                                {
+                                    "meta_info": {
+                                        "last_visited_desktop": "13168680348516319"
+                                    },
+                                    "name": "math - How to find intersection points between two cubic bezier curve - Stack Overflow",
+                                    "url": "https://stackoverflow.com/questions/16052689/how-to-find-intersection-points-between-two-cubic-bezier-curve/16058268?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa",
+                                    "sync_transaction_version": "3957",
+                                    "date_added": "13168679751813559",
+                                    "type": "url",
+                                    "id": "278"
+                                },
+                                {
+                                    "meta_info": {
+                                        "last_visited_desktop": "13172836926385844"
+                                    },
+                                    "name": "How to mount host directory in docker container? - Stack Overflow",
+                                    "url": "https://stackoverflow.com/questions/23439126/how-to-mount-host-directory-in-docker-container?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa",
+                                    "sync_transaction_version": "6011",
+                                    "date_added": "13172836926385290",
+                                    "type": "url",
+                                    "id": "294"
+                                }
+                            ],
+                            "sync_transaction_version": "15349",
+                            "date_added": "13166098753519312",
+                            "type": "folder",
+                            "id": "184"
+                        },
+                        {
+                            "name": "AVe",
+                            "date_modified": "13201205791504948",
+                            "children": [
+                                {
+                                    "meta_info": {
+                                        "last_visited_desktop": "13184327877396984"
+                                    },
+                                    "name": "confluence",
+                                    "url": "https://jira.notarhost.at:9443/#all-updates",
+                                    "sync_transaction_version": "7897",
+                                    "date_added": "13177751098878423",
+                                    "type": "url",
+                                    "id": "312"
+                                },
+                                {
+                                    "meta_info": {
+                                        "last_visited_desktop": "13189693981790905"
+                                    },
+                                    "name": "gitlab",
+                                    "url": "http://192.168.255.65:10080/",
+                                    "sync_transaction_version": "11921",
+                                    "date_added": "13179395413727947",
+                                    "type": "url",
+                                    "id": "330"
+                                },
+                                {
+                                    "meta_info": {
+                                        "last_visited_desktop": "13185900299040856"
+                                    },
+                                    "name": "Jenkins",
+                                    "url": "http://192.168.255.65:11080/",
+                                    "sync_transaction_version": "15349",
+                                    "date_added": "13178368728320514",
+                                    "type": "url",
+                                    "id": "319"
+                                },
+                                {
+                                    "meta_info": {
+                                        "last_visited_desktop": "13189693769047490"
+                                    },
+                                    "name": "jira",
+                                    "url": "https://jira.notarhost.at:8443/",
+                                    "sync_transaction_version": "11915",
+                                    "date_added": "13178201448029346",
+                                    "type": "url",
+                                    "id": "318"
+                                },
+                                {
+                                    "meta_info": {
+                                        "last_visited_desktop": "13198945575194784"
+                                    },
+                                    "name": "mattermost",
+                                    "url": "https://iterachat.iteratec.de/ave/channels/town-square",
+                                    "sync_transaction_version": "13840",
+                                    "date_added": "13181826875809956",
+                                    "type": "url",
+                                    "id": "337"
+                                },
+                                {
+                                    "meta_info": {
+                                        "last_visited_desktop": "13185876217412649"
+                                    },
+                                    "name": "nexus",
+                                    "url": "http://192.168.255.65:12080/",
+                                    "sync_transaction_version": "8270",
+                                    "date_added": "13181748528998720",
+                                    "type": "url",
+                                    "id": "336"
+                                },
+                                {
+                                    "meta_info": {
+                                        "last_visited_desktop": "13188299263414123"
+                                    },
+                                    "name": "review",
+                                    "url": "http://192.168.255.64:8080/",
+                                    "sync_transaction_version": "10473",
+                                    "date_added": "13178648207886751",
+                                    "type": "url",
+                                    "id": "321"
+                                },
+                                {
+                                    "meta_info": {
+                                        "last_visited_desktop": "13187902609194436"
+                                    },
+                                    "name": "5568-swagger",
+                                    "url": "http://avedev01.notariat.local:5568/index.html",
+                                    "sync_transaction_version": "9763",
+                                    "date_added": "13184931899218819",
+                                    "type": "url",
+                                    "id": "367"
+                                }
+                            ],
+                            "sync_transaction_version": "15349",
+                            "date_added": "13181827891281606",
+                            "type": "folder",
+                            "id": "338"
+                        },
+                        {
+                            "name": "etron-reporting",
+                            "date_modified": "13200860219360533",
+                            "children": [
+                                {
+                                    "meta_info": {
+                                        "last_visited_desktop": "13186578490582087"
+                                    },
+                                    "name": "SSRS - Dock the report data pane (CTRL+ALT+D)",
+                                    "url": "https://docs.microsoft.com/en-us/sql/reporting-services/tools/dock-the-report-data-pane-in-report-designer-ssrs?view=sql-server-2017",
+                                    "sync_transaction_version": "8651",
+                                    "date_added": "13185293322711130",
+                                    "type": "url",
+                                    "id": "369"
+                                },
+                                {
+                                    "meta_info": {
+                                        "last_visited_desktop": "13186498647728858"
+                                    },
+                                    "name": "SQL Server 2012 Integration Services - PowerShell-Based Project Deployment",
+                                    "url": "https://www.databasejournal.com/features/mssql/ssis-2012-powershell-based-project-deployment.html",
+                                    "sync_transaction_version": "8651",
+                                    "date_added": "13186498647726561",
+                                    "type": "url",
+                                    "id": "381"
+                                },
+                                {
+                                    "meta_info": {
+                                        "last_visited_desktop": "13188664941725202"
+                                    },
+                                    "name": "Berichts-Manager",
+                                    "url": "http://194.232.160.192/Reports/Pages/Folder.aspx?ViewMode=Detail",
+                                    "sync_transaction_version": "12911",
+                                    "date_added": "13186679953675315",
+                                    "type": "url",
+                                    "id": "382"
+                                }
+                            ],
+                            "sync_transaction_version": "15349",
+                            "date_added": "13174600483942719",
+                            "type": "folder",
+                            "id": "299"
+                        },
+                        {
+                            "meta_info": {
+                                "last_visited_desktop": "13199548069912042"
+                            },
+                            "name": "Iteraweb",
+                            "url": "https://iteraweb.iteratec.de/",
+                            "sync_transaction_version": "15349",
+                            "date_added": "13167384777213832",
+                            "type": "url",
+                            "id": "254"
+                        },
+                        {
+                            "meta_info": {
+                                "last_visited_desktop": "13185302105275655"
+                            },
+                            "name": "Service Desk",
+                            "url": "https://issues.iteratec.io/servicedesk/customer/portal/3",
+                            "sync_transaction_version": "10628",
+                            "date_added": "13174403812945760",
+                            "type": "url",
+                            "id": "296"
+                        },
+                        {
+                            "meta_info": {
+                                "last_visited_desktop": "13189166929352836"
+                            },
+                            "name": "e-learning",
+                            "url": "https://wiki.iteratec.io/display/IP/e-learning@iteratec",
+                            "sync_transaction_version": "10719",
+                            "date_added": "13189166929350414",
+                            "type": "url",
+                            "id": "400"
+                        },
+                        {
+                            "meta_info": {
+                                "last_visited_desktop": "13189166980143861"
+                            },
+                            "name": "Rechnungswesen",
+                            "url": "https://wiki.iteratec.io/display/IO/Rechnungswesen",
+                            "sync_transaction_version": "10724",
+                            "date_added": "13189166980143461",
+                            "type": "url",
+                            "id": "401"
+                        },
+                        {
+                            "meta_info": {
+                                "last_visited_desktop": "13201203918721773"
+                            },
+                            "name": "Standortkalender",
+                            "url": "https://iterasp.iteratec.de/Allgemein/Standort-VIE/Lists/Kalender/calendar.aspx",
+                            "sync_transaction_version": "15348",
+                            "date_added": "13186141820932293",
+                            "type": "url",
+                            "id": "373"
+                        },
+                        {
+                            "name": "IntelliJ IDEA, AppCode und WebStorm (Lizenzen)",
+                            "url": "https://wiki.iteratec.io/pages/viewpage.action?pageId=51609620",
+                            "sync_transaction_version": "15698",
+                            "date_added": "13201621285388368",
+                            "type": "url",
+                            "id": "830"
+                        }
+                    ],
+                    "sync_transaction_version": "15349",
+                    "date_added": "13155978374066893",
+                    "type": "folder",
+                    "id": "153"
+                },
+                {
+                    "name": "BRZ",
+                    "date_modified": "13202319712388211",
+                    "children": [
+                        {
+                            "meta_info": {
+                                "last_visited_desktop": "13201264545809878"
+                            },
+                            "name": "Buchen im SAP (CAT)",
+                            "url": "https://wiki.iteratec.io/pages/viewpage.action?pageId=163874561",
+                            "sync_transaction_version": "15698",
+                            "date_added": "13201264545809686",
+                            "type": "url",
+                            "id": "833"
+                        },
+                        {
+                            "meta_info": {
+                                "last_visited_desktop": "13199979934800853"
+                            },
+                            "name": ":8000 Mini-Justiz-Portal",
+                            "url": "http://localhost:8000/",
+                            "sync_transaction_version": "14708",
+                            "date_added": "13199202066333542",
+                            "type": "url",
+                            "id": "807"
+                        },
+                        {
+                            "meta_info": {
+                                "last_visited_desktop": "13199548083755980"
+                            },
+                            "name": "portal.at E-Mail",
+                            "url": "https://resources.portal.at/fcc/GenericLoginForm/login.fcc?TYPE=33554433&REALMOID=06-000306e3-5507-17ff-a3a1-6fc6ac12a06e&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-%2b4IWVDcFL3xyJ492gp7p00aKwji5Qfen6dqLDeDvcVAONlsRCTUxsD0L%2f8vdP001&TARGET=-SM-https%3a%2f%2fowa0a%2eportal%2eat%2fowa%2f",
+                            "sync_transaction_version": "15698",
+                            "date_added": "13198664729356255",
+                            "type": "url",
+                            "id": "421"
+                        },
+                        {
+                            "meta_info": {
+                                "last_visited_desktop": "13199379337390112"
+                            },
+                            "name": "ju30-dev.justiz.cal.local GitLab",
+                            "url": "https://ju30-dev.justiz.cal.local/",
+                            "sync_transaction_version": "15698",
+                            "date_added": "13199269203737112",
+                            "type": "url",
+                            "id": "808"
+                        },
+                        {
+                            "meta_info": {
+                                "last_visited_desktop": "13199961821669813"
+                            },
+                            "name": "Artifactory",
+                            "url": "https://172.18.86.80/artifactory/webapp/#/home",
+                            "sync_transaction_version": "14708",
+                            "date_added": "13199961821668756",
+                            "type": "url",
+                            "id": "815"
+                        },
+                        {
+                            "meta_info": {
+                                "last_visited_desktop": "13199962035343668"
+                            },
+                            "name": "Justiz 3.0 Platform Dok",
+                            "url": "http://ju30-ci.justiz.cal.local:8080/docs/ju30-platform/latest/platform-docs/asciidoc/index.html",
+                            "sync_transaction_version": "14708",
+                            "date_added": "13199962035343546",
+                            "type": "url",
+                            "id": "814"
+                        },
+                        {
+                            "meta_info": {
+                                "last_visited_desktop": "13199967821345072"
+                            },
+                            "name": "Aktensystem Services-Schnittstelle Dok",
+                            "url": "http://ju30-ci.justiz.cal.local:8080/docs/aktensystem-services-branch-as3.7/latest/aktensystem-services-parent/aktensystem-services-client-rest/asciidoc/index.html",
+                            "sync_transaction_version": "14708",
+                            "date_added": "13199962088132184",
+                            "type": "url",
+                            "id": "816"
+                        },
+                        {
+                            "name": "stp-intern-q: Deployte Applikationen",
+                            "url": "https://stp-intern-q.justiz.cal.local/",
+                            "sync_transaction_version": "15698",
+                            "date_added": "13201357929886641",
+                            "type": "url",
+                            "id": "831"
+                        },
+                        {
+                            "name": "ZTC auf Q",
+                            "url": "https://stp-intern-q.justiz.cal.local/at.gv.justiz.qsys.ztc/",
+                            "sync_transaction_version": "15698",
+                            "date_added": "13201358011796129",
+                            "type": "url",
+                            "id": "834"
+                        },
+                        {
+                            "name": "BMJ - Jira",
+                            "url": "https://issues.iteratec.io/projects/BMJS/summary",
+                            "sync_transaction_version": "15698",
+                            "date_added": "13201358442517712",
+                            "type": "url",
+                            "id": "832"
+                        },
+                        {
+                            "name": "JU30 GitLab",
+                            "url": "https://ju30-dev.justiz.cal.local/users/sign_in",
+                            "sync_transaction_version": "15698",
+                            "date_added": "13201373807662679",
+                            "type": "url",
+                            "id": "835"
+                        },
+                        {
+                            "name": "vj-intern-s: Verfahrensteilnahmen - Pauser",
+                            "url": "http://vj-intern-s.justiz.cal.local/verfahrensstandsinfo-service/verfahrensteilnahmen?name=Pauser&natuerlichePerson=true&portalid=ztc-core",
+                            "sync_transaction_version": "15698",
+                            "date_added": "13201705849597776",
+                            "type": "url",
+                            "id": "836"
+                        },
+                        {
+                            "name": "lokal: verfahrensteilnahmen Pauser",
+                            "url": "http://localhost:8000/at.gv.justiz.local2.ztc-core/api/vj/verfahrensteilnahmen?name=Pauser&natuerlichePerson=true",
+                            "sync_transaction_version": "15698",
+                            "date_added": "13201703048281743",
+                            "type": "url",
+                            "id": "837"
+                        }
+                    ],
+                    "sync_transaction_version": "15349",
+                    "date_added": "13199112804113716",
+                    "type": "folder",
+                    "id": "429"
+                },
+                {
+                    "meta_info": {
+                        "last_visited_desktop": "13201037821929424"
+                    },
+                    "name": "",
+                    "url": "https://separator.mayastudios.com/index.php?t=horz",
+                    "sync_transaction_version": "15349",
+                    "date_added": "13182090800995566",
+                    "type": "url",
+                    "id": "350"
+                },
+                {
+                    "meta_info": {
+                        "last_visited_desktop": "13202489326025048"
+                    },
+                    "name": "Log",
+                    "url": "https://docs.google.com/spreadsheets/d/1lz8ywHUok2eZzYVz-UVOwVcUUTuEJyNgZVaQ6hABWNE/edit#gid=0",
+                    "sync_transaction_version": "15769",
+                    "date_added": "13199568114275165",
+                    "type": "url",
+                    "id": "812"
+                },
+                {
+                    "name": "Geld",
+                    "date_modified": "13201205791501220",
+                    "children": [
+                        {
+                            "meta_info": {
+                                "last_visited_desktop": "13192010645483537"
+                            },
+                            "name": "free.at",
+                            "url": "https://mein.free.at/icc/assisto/nav/73f/73f7023f-008c-d621-c564-e9e14456ebad.htm#LoginPlace:login",
+                            "sync_transaction_version": "12774",
+                            "date_added": "13130875753319395",
+                            "type": "url",
+                            "id": "37"
+                        },
+                        {
+                            "meta_info": {
+                                "last_visited_desktop": "13194383497945302"
+                            },
+                            "name": "PSK",
+                            "url": "http://www.psk.at/psk/home/nav.html",
+                            "sync_transaction_version": "13221",
+                            "date_added": "13130875753319399",
+                            "type": "url",
+                            "id": "38"
+                        },
+                        {
+                            "meta_info": {
+                                "last_visited_desktop": "13196261995467738"
+                            },
+                            "name": "ID",
+                            "url": "https://banking.ing-diba.at/online-banking/",
+                            "sync_transaction_version": "13624",
+                            "date_added": "13130875753319402",
+                            "type": "url",
+                            "id": "39"
+                        },
+                        {
+                            "meta_info": {
+                                "last_visited_desktop": "13196262217002528"
+                            },
+                            "name": "hello-banking",
+                            "url": "https://portal.hellobank.at/web/guest/login?user=b2c",
+                            "sync_transaction_version": "13627",
+                            "date_added": "13159044099138221",
+                            "type": "url",
+                            "id": "161"
+                        },
+                        {
+                            "meta_info": {
+                                "last_visited_desktop": "13190837877578700"
+                            },
+                            "name": "flatex",
+                            "url": "https://www.flatex.at/",
+                            "sync_transaction_version": "15349",
+                            "date_added": "13153049524022254",
+                            "type": "url",
+                            "id": "821"
+                        }
+                    ],
+                    "sync_transaction_version": "15349",
+                    "date_added": "13131301701224788",
+                    "type": "folder",
+                    "id": "10"
+                },
+                {
+                    "name": "Utils",
+                    "date_modified": "13201205791501237",
+                    "children": [
+                        {
+                            "name": "pwyl",
+                            "url": "",
+                            "sync_transaction_version": "1",
+                            "date_added": "13130875753319467",
+                            "type": "url",
+                            "id": "35"
+                        },
+                        {
+                            "name": "\u2605",
+                            "url": "",
+                            "sync_transaction_version": "1",
+                            "date_added": "13130875753319479",
+                            "type": "url",
+                            "id": "36"
+                        },
+                        {
+                            "meta_info": {
+                                "last_visited_desktop": "13192478617282696"
+                            },
+                            "name": "bidvoy",
+                            "url": "https://bidvoy.net/",
+                            "sync_transaction_version": "12934",
+                            "date_added": "13154603355383547",
+                            "type": "url",
+                            "id": "136"
+                        },
+                        {
+                            "meta_info": {
+                                "last_visited_desktop": "13200672980085271"
+                            },
+                            "name": "Wikipedia Aufrufe",
+                            "url": "https://tools.wmflabs.org/massviews/",
+                            "sync_transaction_version": "15208",
+                            "date_added": "13192212450633092",
+                            "type": "url",
+                            "id": "409"
+                        },
+                        {
+                            "meta_info": {
+                                "last_visited_desktop": "13189005959227407"
+                            },
+                            "name": "",
+                            "url": "https://ieeexplore-ieee-org.uaccess.univie.ac.at/search/advsearch.jsp",
+                            "sync_transaction_version": "10680",
+                            "date_added": "13185100901128541",
+                            "type": "url",
+                            "id": "368"
+                        },
+                        {
+                            "meta_info": {
+                                "last_visited_desktop": "13186323916774191"
+                            },
+                            "name": "Free vector icons - SVG, PSD, PNG, EPS & Icon Font - Thousands of free icons",
+                            "url": "https://www.flaticon.com/",
+                            "sync_transaction_version": "8615",
+                            "date_added": "13186323916773555",
+                            "type": "url",
+                            "id": "378"
+                        },
+                        {
+                            "meta_info": {
+                                "last_visited_desktop": "13187182080311777"
+                            },
+                            "name": "cdto: Finder Toolbar app to open Terminal",
+                            "url": "https://github.com/jbtule/cdto",
+                            "sync_transaction_version": "8702",
+                            "date_added": "13187181650208438",
+                            "type": "url",
+                            "id": "384"
+                        },
+                        {
+                            "meta_info": {
+                                "last_visited_desktop": "13199805912702232"
+                            },
+                            "name": "noisli",
+                            "url": "https://www.noisli.com/",
+                            "sync_transaction_version": "14674",
+                            "date_added": "13167849043210795",
+                            "type": "url",
+                            "id": "428"
+                        },
+                        {
+                            "meta_info": {
+                                "last_visited_desktop": "13178038896200025"
+                            },
+                            "name": "bootlint",
+                            "url": "",
+                            "sync_transaction_version": "15349",
+                            "date_added": "13178038896199446",
+                            "type": "url",
+                            "id": "313"
+                        }
+                    ],
+                    "sync_transaction_version": "15349",
+                    "date_added": "13130875753326408",
+                    "type": "folder",
+                    "id": "11"
+                },
+                {
+                    "name": "Dev",
+                    "date_modified": "13202319712388210",
+                    "children": [
+                        {
+                            "meta_info": {
+                                "last_visited_desktop": "13200669648121156"
+                            },
+                            "name": "wiki",
+                            "url": "https://wiki.uberspace.de/",
+                            "sync_transaction_version": "15207",
+                            "date_added": "13130875753319486",
+                            "type": "url",
+                            "id": "12"
+                        },
+                        {
+                            "meta_info": {
+                                "last_visited_desktop": "13180697285221903"
+                            },
+                            "name": "ToddMotto",
+                            "url": "https://toddmotto.com/",
+                            "sync_transaction_version": "15349",
+                            "date_added": "13166876799186076",
+                            "type": "url",
+                            "id": "334"
+                        },
+                        {
+                            "meta_info": {
+                                "last_visited_desktop": "13188851683938900"
+                            },
+                            "name": "thoughtram",
+                            "url": "https://blog.thoughtram.io/",
+                            "sync_transaction_version": "15349",
+                            "date_added": "13166876768227300",
+                            "type": "url",
+                            "id": "333"
+                        },
+                        {
+                            "meta_info": {
+                                "last_visited_desktop": "13201037325196410"
+                            },
+                            "name": "Angular Schulung Github",
+                            "url": "https://github.com/mikezks/20181010",
+                            "sync_transaction_version": "15349",
+                            "date_added": "13183629640610838",
+                            "type": "url",
+                            "id": "365"
+                        },
+                        {
+                            "meta_info": {
+                                "last_visited_desktop": "13200504783411368"
+                            },
+                            "name": "Flex Box Froggy",
+                            "url": "https://flexboxfroggy.com/#de",
+                            "sync_transaction_version": "15349",
+                            "date_added": "13199803651215005",
+                            "type": "url",
+                            "id": "813"
+                        },
+                        {
+                            "name": "vim: keep/delete lines matching pattern",
+                            "url": "http://lglinux.blogspot.com/2009/08/vim-keep-or-delete-lines-matching.html",
+                            "sync_transaction_version": "15698",
+                            "date_added": "13201954681918582",
+                            "type": "url",
+                            "id": "829"
+                        },
+                        {
+                            "name": "Add go after n lines",
+                            "url": "https://stackoverflow.com/questions/10413906/how-to-add-a-line-after-every-few-lines-in-vim",
+                            "sync_transaction_version": "15698",
+                            "date_added": "13201956600007766",
+                            "type": "url",
+                            "id": "828"
+                        }
+                    ],
+                    "sync_transaction_version": "15349",
+                    "date_added": "13155219708931779",
+                    "type": "folder",
+                    "id": "88"
+                },
+                {
+                    "name": "Media",
+                    "date_modified": "13201210101899519",
+                    "children": [
+                        {
+                            "meta_info": {
+                                "last_visited_desktop": "13190393319436363"
+                            },
+                            "name": "coursehunters.net",
+                            "url": "https://coursehunters.net/course/ngrx-store-effects",
+                            "sync_transaction_version": "11978",
+                            "date_added": "13178145262113566",
+                            "type": "url",
+                            "id": "316"
+                        },
+                        {
+                            "meta_info": {
+                                "last_visited_desktop": "13188851879393701"
+                            },
+                            "name": "redux",
+                            "url": "https://coursehunters.net/course/sozdavayte-prilozheniya-stilya-redux-s-pomoshchyu-angular-rxjs-i-ngrx-store",
+                            "sync_transaction_version": "10634",
+                            "date_added": "13178144658121206",
+                            "type": "url",
+                            "id": "314"
+                        },
+                        {
+                            "meta_info": {
+                                "last_visited_desktop": "13200860187969531"
+                            },
+                            "name": "b-ok.cc",
+                            "url": "https://b-ok.cc/",
+                            "sync_transaction_version": "15282",
+                            "date_added": "13200860187960904",
+                            "type": "url",
+                            "id": "819"
+                        },
+                        {
+                            "meta_info": {
+                                "last_visited_desktop": "13202419182817687"
+                            },
+                            "name": "watchmoviestream.me",
+                            "url": "https://watchmoviestream.me/",
+                            "sync_transaction_version": "15708",
+                            "date_added": "13165246357210166",
+                            "type": "url",
+                            "id": "182"
+                        },
+                        {
+                            "meta_info": {
+                                "last_visited_desktop": "13202419111271113"
+                            },
+                            "name": "openloadmovies.bz",
+                            "url": "https://openloadmovies.bz/",
+                            "sync_transaction_version": "15707",
+                            "date_added": "13201209547344878",
+                            "type": "url",
+                            "id": "826"
+                        }
+                    ],
+                    "sync_transaction_version": "15349",
+                    "date_added": "13155979025747235",
+                    "type": "folder",
+                    "id": "155"
+                },
+                {
+                    "meta_info": {
+                        "last_visited_desktop": "13200427514507183"
+                    },
+                    "name": "UPC",
+                    "url": "https://service.upc.at/login/",
+                    "sync_transaction_version": "15349",
+                    "date_added": "13130875753319558",
+                    "type": "url",
+                    "id": "16"
+                },
+                {
+                    "meta_info": {
+                        "last_visited_desktop": "13200835503200469"
+                    },
+                    "name": "CIS",
+                    "url": "http://se18m022:klstnx12@cis.technikum-wien.at/cis/index_login.php?login=1",
+                    "sync_transaction_version": "15349",
+                    "date_added": "13130875753319349",
+                    "type": "url",
+                    "id": "40"
+                },
+                {
+                    "meta_info": {
+                        "last_visited_desktop": "13202495827014338"
+                    },
+                    "name": "Mdl",
+                    "url": "https://moodle.technikum-wien.at/",
+                    "sync_transaction_version": "15771",
+                    "date_added": "13152548650173226",
+                    "type": "url",
+                    "id": "117"
+                },
+                {
+                    "meta_info": {
+                        "last_visited_desktop": "13201090099374286"
+                    },
+                    "name": "Coursera",
+                    "url": "https://www.coursera.org/learn/machine-learning/home/welcome",
+                    "sync_transaction_version": "15349",
+                    "date_added": "13189100439131652",
+                    "type": "url",
+                    "id": "399"
+                },
+                {
+                    "meta_info": {
+                        "last_visited_desktop": "13201037821929424"
+                    },
+                    "name": "",
+                    "url": "https://separator.mayastudios.com/index.php?t=horz",
+                    "sync_transaction_version": "15349",
+                    "date_added": "13201037821928335",
+                    "type": "url",
+                    "id": "824"
+                },
+                {
+                    "meta_info": {
+                        "last_visited_desktop": "13201090021620574"
+                    },
+                    "name": "PCC",
+                    "url": "https://www.dragondoor.com/workshops/details/pcc060/",
+                    "sync_transaction_version": "15349",
+                    "date_added": "13192366428067030",
+                    "type": "url",
+                    "id": "411"
+                },
+                {
+                    "meta_info": {
+                        "last_visited_desktop": "13202419920377003"
+                    },
+                    "name": "Game of Thrones: Conquest & Rebellion 2017 Openload Full Movie Online For Free Putlocker",
+                    "url": "https://watchmoviestream.me/movies/game-of-thrones-conquest-rebellion-2017/",
+                    "sync_transaction_version": "15712",
+                    "date_added": "13202419920375638",
+                    "type": "url",
+                    "id": "839"
+                }
+            ],
+            "date_added": "13131301664557033",
+            "type": "folder",
+            "id": "1"
+        },
+        "other": {
+            "name": "Andere Lesezeichen",
+            "date_modified": "13152097921223869",
+            "children": [],
+            "date_added": "13131301664557044",
+            "type": "folder",
+            "id": "2"
+        }
+    }
+}

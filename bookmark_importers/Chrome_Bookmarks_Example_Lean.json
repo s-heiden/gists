@@ -1,0 +1,565 @@
+{
+    "checksum": "e2cfaad59ac19b831fc4a6334f92fa56",
+    "roots": {
+        "bookmark_bar": {
+            "children": [
+                {
+                    "name": "Outlook",
+                    "type": "url",
+                    "url": "https://outlook.office365.com/"
+                },
+                {
+                    "name": "Projectile",
+                    "type": "url",
+                    "url": "https://project.iteratec.de/projectile/start"
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "name": "CTF Protokoll Wien",
+                                    "type": "url",
+                                    "url": "https://docs.google.com/document/d/19havwh5GhGsNSJFDaG-lDCZDVQVTFosKoR7pxrW-CFs/edit#"
+                                },
+                                {
+                                    "name": "RancherHowtoInstall",
+                                    "type": "url",
+                                    "url": "https://rancher.iteratec.de:8443/env/1a935/catalog/SecureCodeBox%20(PROD):security-ctf"
+                                },
+                                {
+                                    "name": "Rancher",
+                                    "type": "url",
+                                    "url": "https://rancher.iteratec.de:8443/env/1a935/apps/stacks/1st102"
+                                },
+                                {
+                                    "name": "CTF@iterawiki",
+                                    "type": "url",
+                                    "url": "https://iteraweb.iteratec.de/confluence/pages/viewpage.action?pageId=122880669"
+                                }
+                            ],
+                            "name": "CTF",
+                            "type": "folder"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "IteraBoard",
+                                    "type": "url",
+                                    "url": "http://localhost:4200/"
+                                },
+                                {
+                                    "name": "fabricjs - Using fabric js with Angular 4 - Stack Overflow",
+                                    "type": "url",
+                                    "url": "https://stackoverflow.com/questions/45941730/using-fabric-js-with-angular-4"
+                                },
+                                {
+                                    "name": "angular-cli - javascript - using external JS libraries in my angular 2 project - Stack Overflow",
+                                    "type": "url",
+                                    "url": "https://stackoverflow.com/questions/41120754/using-external-js-libraries-in-my-angular-2-project"
+                                },
+                                {
+                                    "name": "Bind Angular 2+ \"this\" to JS-callback",
+                                    "type": "url",
+                                    "url": "https://stackoverflow.com/questions/38245450/angular2-components-this-is-undefined-when-executing-callback-function"
+                                },
+                                {
+                                    "name": "Angular 2+ Best Practices",
+                                    "type": "url",
+                                    "url": "https://hackernoon.com/best-practices-learnt-from-delivering-a-quality-angular4-application-2cd074ea53b3"
+                                },
+                                {
+                                    "name": " Angular 2 @ViewChild in *ngIf",
+                                    "type": "url",
+                                    "url": "https://stackoverflow.com/questions/39366981/angular-2-viewchild-in-ngif"
+                                },
+                                {
+                                    "name": "Angular in Docker with Nginx",
+                                    "type": "url",
+                                    "url": "https://medium.com/@tiangolo/angular-in-docker-with-nginx-supporting-environments-built-with-multi-stage-docker-builds-bb9f1724e984"
+                                },
+                                {
+                                    "name": "Docker image push over SSH",
+                                    "type": "url",
+                                    "url": "https://stackoverflow.com/questions/31575546/docker-image-push-over-ssh-distributed?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa"
+                                },
+                                {
+                                    "name": "assign a port mapping to Docker container",
+                                    "type": "url",
+                                    "url": "https://stackoverflow.com/questions/19335444/how-do-i-assign-a-port-mapping-to-an-existing-docker-container?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa"
+                                },
+                                {
+                                    "name": "Post-installation steps for Docker",
+                                    "type": "url",
+                                    "url": "https://docs.docker.com/install/linux/linux-postinstall/#configure-where-the-docker-daemon-listens-for-connections"
+                                },
+                                {
+                                    "name": "Without password - Shell Script for logging into a ssh server",
+                                    "type": "url",
+                                    "url": "https://unix.stackexchange.com/questions/31071/shell-script-for-logging-into-a-ssh-server"
+                                },
+                                {
+                                    "name": "Building a random particle generator Ionic app",
+                                    "type": "url",
+                                    "url": "http://masteringionic.com/blog/2017-12-05-creating-a-random-particle-generator-with-html5-canvas-api-and-ionic-framework/"
+                                },
+                                {
+                                    "name": "ng-tut",
+                                    "type": "url",
+                                    "url": "https://www.youtube.com/watch?v=fPtacabLEJc"
+                                },
+                                {
+                                    "name": "javascript - How to use / include fabricjs in Angular2 - Stack Overflow",
+                                    "type": "url",
+                                    "url": "https://stackoverflow.com/questions/40036374/how-to-use-include-fabricjs-in-angular2?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa"
+                                },
+                                {
+                                    "name": "javascript - Undo Redo History for Canvas FabricJs - Stack Overflow",
+                                    "type": "url",
+                                    "url": "https://stackoverflow.com/questions/22338080/undo-redo-history-for-canvas-fabricjs"
+                                },
+                                {
+                                    "name": "Undo/Redo mit Fabric JS",
+                                    "type": "url",
+                                    "url": "http://jsfiddle.net/gcollect/b3aMF/"
+                                },
+                                {
+                                    "name": "Per-pixel collision detection · Issue #595 · kangax/fabric.js",
+                                    "type": "url",
+                                    "url": "https://github.com/kangax/fabric.js/issues/595"
+                                },
+                                {
+                                    "name": "Selection Rectangle with JS",
+                                    "type": "url",
+                                    "url": "https://jsfiddle.net/lannymcnie/gg8sv4cq/"
+                                },
+                                {
+                                    "name": "How to create your own TypeScript type definition files (.d.ts) and contribute to DefinitelyTyped on GitHub",
+                                    "type": "url",
+                                    "url": "http://blog.wolksoftware.com/contributing-to-definitelytyped"
+                                },
+                                {
+                                    "name": "Custom Fabric build",
+                                    "type": "url",
+                                    "url": "http://fabricjs.com/build/"
+                                },
+                                {
+                                    "name": "Angular Folder Structure",
+                                    "type": "url",
+                                    "url": "https://medium.com/@motcowley/angular-folder-structure-d1809be95542"
+                                },
+                                {
+                                    "name": "SVG.js | Elements",
+                                    "type": "url",
+                                    "url": "http://svgjs.com/elements/"
+                                },
+                                {
+                                    "name": "mrin9/Angular-SpringBoot-REST-JWT: Springboot, Angular and JWT security - Example Project based on Northwind Order Processing",
+                                    "type": "url",
+                                    "url": "https://github.com/mrin9/Angular-SpringBoot-REST-JWT"
+                                },
+                                {
+                                    "name": "Build a Basic CRUD App with Angular 5.0 and Spring Boot 2.0 | Okta Developer",
+                                    "type": "url",
+                                    "url": "https://developer.okta.com/blog/2017/12/04/basic-crud-angular-and-spring-boot"
+                                },
+                                {
+                                    "name": "math - How to find intersection points between two cubic bezier curve - Stack Overflow",
+                                    "type": "url",
+                                    "url": "https://stackoverflow.com/questions/16052689/how-to-find-intersection-points-between-two-cubic-bezier-curve/16058268?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa"
+                                },
+                                {
+                                    "name": "How to mount host directory in docker container? - Stack Overflow",
+                                    "type": "url",
+                                    "url": "https://stackoverflow.com/questions/23439126/how-to-mount-host-directory-in-docker-container?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa"
+                                }
+                            ],
+                            "name": "LeanStartBoard",
+                            "type": "folder"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "confluence",
+                                    "type": "url",
+                                    "url": "https://jira.notarhost.at:9443/#all-updates"
+                                },
+                                {
+                                    "name": "gitlab",
+                                    "type": "url",
+                                    "url": "http://192.168.255.65:10080/"
+                                },
+                                {
+                                    "name": "Jenkins",
+                                    "type": "url",
+                                    "url": "http://192.168.255.65:11080/"
+                                },
+                                {
+                                    "name": "jira",
+                                    "type": "url",
+                                    "url": "https://jira.notarhost.at:8443/"
+                                },
+                                {
+                                    "name": "mattermost",
+                                    "type": "url",
+                                    "url": "https://iterachat.iteratec.de/ave/channels/town-square"
+                                },
+                                {
+                                    "name": "nexus",
+                                    "type": "url",
+                                    "url": "http://192.168.255.65:12080/"
+                                },
+                                {
+                                    "name": "review",
+                                    "type": "url",
+                                    "url": "http://192.168.255.64:8080/"
+                                },
+                                {
+                                    "name": "5568-swagger",
+                                    "type": "url",
+                                    "url": "http://avedev01.notariat.local:5568/index.html"
+                                }
+                            ],
+                            "name": "AVe",
+                            "type": "folder"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "name": "SSRS - Dock the report data pane (CTRL+ALT+D)",
+                                    "type": "url",
+                                    "url": "https://docs.microsoft.com/en-us/sql/reporting-services/tools/dock-the-report-data-pane-in-report-designer-ssrs?view=sql-server-2017"
+                                },
+                                {
+                                    "name": "SQL Server 2012 Integration Services - PowerShell-Based Project Deployment",
+                                    "type": "url",
+                                    "url": "https://www.databasejournal.com/features/mssql/ssis-2012-powershell-based-project-deployment.html"
+                                },
+                                {
+                                    "name": "Berichts-Manager",
+                                    "type": "url",
+                                    "url": "http://194.232.160.192/Reports/Pages/Folder.aspx?ViewMode=Detail"
+                                }
+                            ],
+                            "name": "etron-reporting",
+                            "type": "folder"
+                        },
+                        {
+                            "name": "Iteraweb",
+                            "type": "url",
+                            "url": "https://iteraweb.iteratec.de/"
+                        },
+                        {
+                            "name": "Service Desk",
+                            "type": "url",
+                            "url": "https://issues.iteratec.io/servicedesk/customer/portal/3"
+                        },
+                        {
+                            "name": "e-learning",
+                            "type": "url",
+                            "url": "https://wiki.iteratec.io/display/IP/e-learning@iteratec"
+                        },
+                        {
+                            "name": "Rechnungswesen",
+                            "type": "url",
+                            "url": "https://wiki.iteratec.io/display/IO/Rechnungswesen"
+                        },
+                        {
+                            "name": "Standortkalender",
+                            "type": "url",
+                            "url": "https://iterasp.iteratec.de/Allgemein/Standort-VIE/Lists/Kalender/calendar.aspx"
+                        },
+                        {
+                            "name": "IntelliJ IDEA, AppCode und WebStorm (Lizenzen)",
+                            "type": "url",
+                            "url": "https://wiki.iteratec.io/pages/viewpage.action?pageId=51609620"
+                        }
+                    ],
+                    "name": "Iteratec",
+                    "type": "folder"
+                },
+                {
+                    "children": [
+                        {
+                            "name": "Buchen im SAP (CAT)",
+                            "type": "url",
+                            "url": "https://wiki.iteratec.io/pages/viewpage.action?pageId=163874561"
+                        },
+                        {
+                            "name": ":8000 Mini-Justiz-Portal",
+                            "type": "url",
+                            "url": "http://localhost:8000/"
+                        },
+                        {
+                            "name": "portal.at E-Mail",
+                            "type": "url",
+                            "url": "https://resources.portal.at/fcc/GenericLoginForm/login.fcc?TYPE=33554433&REALMOID=06-000306e3-5507-17ff-a3a1-6fc6ac12a06e&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-%2b4IWVDcFL3xyJ492gp7p00aKwji5Qfen6dqLDeDvcVAONlsRCTUxsD0L%2f8vdP001&TARGET=-SM-https%3a%2f%2fowa0a%2eportal%2eat%2fowa%2f"
+                        },
+                        {
+                            "name": "ju30-dev.justiz.cal.local GitLab",
+                            "type": "url",
+                            "url": "https://ju30-dev.justiz.cal.local/"
+                        },
+                        {
+                            "name": "Artifactory",
+                            "type": "url",
+                            "url": "https://172.18.86.80/artifactory/webapp/#/home"
+                        },
+                        {
+                            "name": "Justiz 3.0 Platform Doku",
+                            "type": "url",
+                            "url": "http://ju30-ci.justiz.cal.local:8080/docs/ju30-platform/latest/platform-docs/asciidoc/index.html"
+                        },
+                        {
+                            "name": "Aktensystem Services-Schnittstelle Doku",
+                            "type": "url",
+                            "url": "http://ju30-ci.justiz.cal.local:8080/docs/aktensystem-services-branch-as3.7/latest/aktensystem-services-parent/aktensystem-services-client-rest/asciidoc/index.html"
+                        },
+                        {
+                            "name": "stp-intern-q: Deployte Applikationen",
+                            "type": "url",
+                            "url": "https://stp-intern-q.justiz.cal.local/"
+                        },
+                        {
+                            "name": "ZTC auf Q",
+                            "type": "url",
+                            "url": "https://stp-intern-q.justiz.cal.local/at.gv.justiz.qsys.ztc/"
+                        },
+                        {
+                            "name": "BMJ - Jira",
+                            "type": "url",
+                            "url": "https://issues.iteratec.io/projects/BMJS/summary"
+                        },
+                        {
+                            "name": "JU30 · GitLab",
+                            "type": "url",
+                            "url": "https://ju30-dev.justiz.cal.local/users/sign_in"
+                        },
+                        {
+                            "name": "vj-intern-s: Verfahrensteilnahmen - Pauser",
+                            "type": "url",
+                            "url": "http://vj-intern-s.justiz.cal.local/verfahrensstandsinfo-service/verfahrensteilnahmen?name=Pauser&natuerlichePerson=true&portalid=ztc-core"
+                        },
+                        {
+                            "name": "lokal: verfahrensteilnahmen Pauser",
+                            "type": "url",
+                            "url": "http://localhost:8000/at.gv.justiz.local2.ztc-core/api/vj/verfahrensteilnahmen?name=Pauser&natuerlichePerson=true"
+                        }
+                    ],
+                    "name": "BRZ",
+                    "type": "folder"
+                },
+                {
+                    "name": "",
+                    "type": "url",
+                    "url": "https://separator.mayastudios.com/index.php?t=horz"
+                },
+                {
+                    "name": "Log",
+                    "type": "url",
+                    "url": "https://docs.google.com/spreadsheets/d/1lz8ywHUok2eZzYVz-UVOwVcUUTuEJyNgZVaQ6hABWNE/edit#gid=0"
+                },
+                {
+                    "children": [
+                        {
+                            "name": "free.at",
+                            "type": "url",
+                            "url": "https://mein.free.at/icc/assisto/nav/73f/73f7023f-008c-d621-c564-e9e14456ebad.htm#LoginPlace:login"
+                        },
+                        {
+                            "name": "PSK",
+                            "type": "url",
+                            "url": "http://www.psk.at/psk/home/nav.html"
+                        },
+                        {
+                            "name": "ID",
+                            "type": "url",
+                            "url": "https://banking.ing-diba.at/online-banking/"
+                        },
+                        {
+                            "name": "hello-banking",
+                            "type": "url",
+                            "url": "https://portal.hellobank.at/web/guest/login?user=b2c"
+                        },
+                        {
+                            "name": "flatex",
+                            "type": "url",
+                            "url": "https://www.flatex.at/"
+                        }
+                    ],
+                    "name": "Geld",
+                    "type": "folder"
+                },
+                {
+                    "children": [
+                        {
+                            "name": "pwyl",
+                            "type": "url",
+                            "url": "javascript:(function()%7Bif(window%5B'ppw'%5D&&ppw%5B'bookmarklet'%5D)%7Bppw.bookmarklet.toggle();%7Delse%7Bwindow._pwyl_home='//www.printwhatyoulike.com/';window._pwyl_pro_id=null;window._pwyl_bmkl=document.createElement('script');window._pwyl_bmkl.setAttribute('type','text/javascript');window._pwyl_bmkl.setAttribute('src',window._pwyl_home+'static/compressed/pwyl_bookmarklet_10.js');window._pwyl_bmkl.setAttribute('pwyl','true');document.getElementsByTagName('head')%5B0%5D.appendChild(window._pwyl_bmkl);%7D%7D)();"
+                        },
+                        {
+                            "name": "★",
+                            "type": "url",
+                            "url": "javascript:(function()%7Btry%7Bvar%20d=document,b=d.body,s=d.createElement('script'),l=d.createElement('div'),t=l.style,x='undefined',u='http://www.whimventory.com';s.setAttribute('src',u+'/scripts/b.php');l.id='wvtyld';l.innerHTML='Loading%20Whimventory...';t.background='%23ff3f11';t.color='white';t.textAlign='center';t.position='absolute';t.top='0px';b.appendChild(l);b.appendChild(s);%7Dcatch%20(e)%20%7Balert('Please%20wait%20until%20the%20page%20has%20finished%20loading');%7D%7D())"
+                        },
+                        {
+                            "name": "bidvoy",
+                            "type": "url",
+                            "url": "https://bidvoy.net/"
+                        },
+                        {
+                            "name": "Wikipedia Aufrufe",
+                            "type": "url",
+                            "url": "https://tools.wmflabs.org/massviews/"
+                        },
+                        {
+                            "name": "",
+                            "type": "url",
+                            "url": "https://ieeexplore-ieee-org.uaccess.univie.ac.at/search/advsearch.jsp"
+                        },
+                        {
+                            "name": "Free vector icons - SVG, PSD, PNG, EPS & Icon Font - Thousands of free icons",
+                            "type": "url",
+                            "url": "https://www.flaticon.com/"
+                        },
+                        {
+                            "name": "cdto: Finder Toolbar app to open Terminal",
+                            "type": "url",
+                            "url": "https://github.com/jbtule/cdto"
+                        },
+                        {
+                            "name": "noisli",
+                            "type": "url",
+                            "url": "https://www.noisli.com/"
+                        },
+                        {
+                            "name": "bootlint",
+                            "type": "url",
+                            "url": "javascript:(function(){var s=document.createElement(\"script\");s.onload=function(){bootlint.showLintReportForCurrentDocument([]);};s.src=\"https://maxcdn.bootstrapcdn.com/bootlint/latest/bootlint.min.js\";document.body.appendChild(s)})();"
+                        }
+                    ],
+                    "name": "Utils",
+                    "type": "folder"
+                },
+                {
+                    "children": [
+                        {
+                            "name": "wiki",
+                            "type": "url",
+                            "url": "https://wiki.uberspace.de/"
+                        },
+                        {
+                            "name": "ToddMotto",
+                            "type": "url",
+                            "url": "https://toddmotto.com/"
+                        },
+                        {
+                            "name": "thoughtram",
+                            "type": "url",
+                            "url": "https://blog.thoughtram.io/"
+                        },
+                        {
+                            "name": "Angular Schulung Github",
+                            "type": "url",
+                            "url": "https://github.com/mikezks/20181010"
+                        },
+                        {
+                            "name": "Flex Box Froggy",
+                            "type": "url",
+                            "url": "https://flexboxfroggy.com/#de"
+                        },
+                        {
+                            "name": "vim: keep/delete lines matching pattern",
+                            "type": "url",
+                            "url": "http://lglinux.blogspot.com/2009/08/vim-keep-or-delete-lines-matching.html"
+                        },
+                        {
+                            "name": "Add go after n lines",
+                            "type": "url",
+                            "url": "https://stackoverflow.com/questions/10413906/how-to-add-a-line-after-every-few-lines-in-vim"
+                        }
+                    ],
+                    "name": "Dev",
+                    "type": "folder"
+                },
+                {
+                    "children": [
+                        {
+                            "name": "coursehunters.net",
+                            "type": "url",
+                            "url": "https://coursehunters.net/course/ngrx-store-effects"
+                        },
+                        {
+                            "name": "redux",
+                            "type": "url",
+                            "url": "https://coursehunters.net/course/sozdavayte-prilozheniya-stilya-redux-s-pomoshchyu-angular-rxjs-i-ngrx-store"
+                        },
+                        {
+                            "name": "b-ok.cc",
+                            "type": "url",
+                            "url": "https://b-ok.cc/"
+                        },
+                        {
+                            "name": "watchmoviestream.me",
+                            "type": "url",
+                            "url": "https://watchmoviestream.me/"
+                        },
+                        {
+                            "name": "openloadmovies.bz",
+                            "type": "url",
+                            "url": "https://openloadmovies.bz/"
+                        }
+                    ],
+                    "name": "Media",
+                    "type": "folder"
+                },
+                {
+                    "name": "UPC",
+                    "type": "url",
+                    "url": "https://service.upc.at/login/"
+                },
+                {
+                    "name": "CIS",
+                    "type": "url",
+                    "url": "http://se18m022:klstnx12@cis.technikum-wien.at/cis/index_login.php?login=1"
+                },
+                {
+                    "name": "Mdl",
+                    "type": "url",
+                    "url": "https://moodle.technikum-wien.at/"
+                },
+                {
+                    "name": "Coursera",
+                    "type": "url",
+                    "url": "https://www.coursera.org/learn/machine-learning/home/welcome"
+                },
+                {
+                    "name": "",
+                    "type": "url",
+                    "url": "https://separator.mayastudios.com/index.php?t=horz"
+                },
+                {
+                    "name": "PCC",
+                    "type": "url",
+                    "url": "https://www.dragondoor.com/workshops/details/pcc060/"
+                },
+                {
+                    "name": "Game of Thrones: Conquest & Rebellion 2017 Openload Full Movie Online For Free Putlocker",
+                    "type": "url",
+                    "url": "https://watchmoviestream.me/movies/game-of-thrones-conquest-rebellion-2017/"
+                }
+            ],
+            "name": "Lesezeichenleiste",
+            "type": "folder"
+        },
+        "other": {
+            "children": [],
+            "type": "folder"
+        },
+        "synced": {
+            "children": [],
+            "type": "folder"
+        }
+    },
+    "version": 1
+}
