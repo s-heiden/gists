@@ -5,12 +5,13 @@
 # Setup:            make sure, terminal has full disk access: http://osxdaily.com/2018/10/09/fix-operation-not-permitted-terminal-error-macos/
 # 
 
-from biplist import readPlist, writePlist
-import json
 import datetime
+import json
 import os
-import sys
 import shutil
+import sys
+
+from biplist import readPlist, writePlist
 
 
 def parse_chrome_time(raw):
