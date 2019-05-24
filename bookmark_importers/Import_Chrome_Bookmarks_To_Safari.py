@@ -1,23 +1,17 @@
 # !/usr/bin/env python
 #
-# Title:        Import_Chrome_Bookmarks_To_Safari.py
-# Author:       binss, s-heiden
-#
-# README:
-# 1) move the file you are reading to ~
-# 2) make sure, terminal has full disk access: http://osxdaily.com/2018/10/09/fix-operation-not-permitted-terminal-error-macos/
-# 3) add to ~./bash_profile 
-#  chromify() { 
-#     python ~/.Import_Chrome_Bookmarks_To_Safari.py 
-# }
+# Title:            Import_Chrome_Bookmarks_To_Safari.py
+# Author:           binss, s-heiden
+# Setup:            make sure, terminal has full disk access: http://osxdaily.com/2018/10/09/fix-operation-not-permitted-terminal-error-macos/
 # 
 
-from biplist import *
-import json
 import datetime
+import json
 import os
-import sys
 import shutil
+import sys
+
+from biplist import readPlist, writePlist
 
 
 def parse_chrome_time(raw):
@@ -30,7 +24,6 @@ def parse_chrome_time(raw):
     seconds, microseconds = divmod(microseconds, 1000000)
     days, seconds = divmod(seconds, 86400)
     return datetime.datetime(1601, 1, 1) + datetime.timedelta(days, seconds, microseconds)
-
 
 
 class BookmarkManager:
@@ -50,7 +43,11 @@ class BookmarkManager:
                         bookmarks.append({"name": child["name"], "children": children})
                         number += children_num
                     else:
-                        bookmark = {"name": child["name"], "url": child["url"], "time": parse_chrome_time(child["date_added"])}
+                        bookmark = {
+                            "name": child["name"],
+                            "url": child["url"],
+                            "time": parse_chrome_time(child["date_added"])
+                        }
                         bookmarks.append(bookmark)
                         number += 1
             return bookmarks, number
@@ -65,16 +62,23 @@ class BookmarkManager:
             self.bookmarks = self.bookmarks + new_bookmarks
             self.number = self.number + new_number
 
-
     def save_to_safari(self, raw):
         def save_bookmark(children):
             bookmarks = []
             for child in children:
                 if "children" in child:
-                    directory = {"WebBookmarkType": "WebBookmarkTypeList", "Title": child["name"], "Children": save_bookmark(child["children"])}
+                    directory = {
+                        "WebBookmarkType": "WebBookmarkTypeList",
+                        "Title": child["name"],
+                        "Children": save_bookmark(child["children"])
+                    }
                     bookmarks.append(directory)
                 else:
-                    bookmark = {"WebBookmarkType": "WebBookmarkTypeLeaf", "URIDictionary": {"title": child["name"]}, "URLString": child["url"]}
+                    bookmark = {
+                        "WebBookmarkType": "WebBookmarkTypeLeaf",
+                        "URIDictionary": {"title": child["name"]},
+                        "URLString": child["url"]
+                    }
                     bookmarks.append(bookmark)
             return bookmarks
 
@@ -94,7 +98,6 @@ class BookmarkManager:
         return self.number
 
 
-
 def main():
     home_path = os.environ['HOME']
 
@@ -102,17 +105,18 @@ def main():
     chrome_path = home_path + "/Library/Application Support/Google/Chrome/Default/Bookmarks"
 
     if not os.path.exists(safari_path):
-        print "[Error]The bookmarks files of safari is not exist! path: " + safari_path
+        print "[Error] The bookmark files of safari do not exist! path: " + safari_path
         return
 
     if not os.path.exists(chrome_path):
-        print "[Error]The bookmarks files of chrome is not exist! path: " + chrome_path
+        print "[Error] The bookmark files of chrome do not exist! path: " + chrome_path
         return
 
     bookmark_manager = BookmarkManager()
 
     with open(chrome_path, "r") as f:
         chrome_info = json.load(f)
+        print chrome_info
         bookmark_manager.load_from_chrome(chrome_info)
 
     safari_info = readPlist(safari_path)

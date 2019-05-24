@@ -4,6 +4,7 @@
 # author:           s-heiden
 # date:             2019-05-01
 # requirements:     lame
+#
 shopt -s extglob
 for filename in *(*.mp4|*.flac); do
     new_filename=${filename%.*}.mp3
