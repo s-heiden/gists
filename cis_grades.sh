@@ -12,4 +12,14 @@
 #
 #                   sl17a0384:Pazzword123
 #
-curl -S -s -i -H "Authorization: Basic `base64 -i ./.cis_credentials`" https://cis.technikum-wien.at/cis/private/lehre/notenliste.php?stsem=alle | html2text -width 500 | grep '\d\d\d\d-\d\d' | sed 's/  [[:blank:]]*/|/g' | sort -k5,5 -t'|'
+curl -S -s -i -H "Authorization: Basic `base64 -i ./.cis_credentials`" https://cis.technikum-wien.at/cis/private/lehre/notenliste.php?stsem=alle \
+    | pup '#notenliste' \
+    | sed 's/<\/td>/;<\/td>/g' \
+    | html2text -ascii -style pretty -width 360 \
+    | grep '\d\d\d\d-\d\d' \
+    | sed 's/\(  \)\{2,99\}//g' \
+    | sed 's/\( ;\)/;/g' \
+    | sed 's/\(; \)/;/g' \
+    | sed 's/\(;;\)/;/g' \
+    | sort -k 5 -t ';' \
+    | column -t -s ';'
