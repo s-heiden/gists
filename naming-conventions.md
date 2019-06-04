@@ -25,6 +25,7 @@ https://www.python.org/dev/peps/pep-0008/#package-and-module-names
 ## Shell
 
 > Lowercase, with underscores to separate words if desired.
+> Executables should have no extension (strongly preferred) or a .sh extension. Libraries must have a .sh extension and should not be executable.
 
 https://google.github.io/styleguide/shell.xml
 
