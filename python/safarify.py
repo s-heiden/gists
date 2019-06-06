@@ -1,8 +1,10 @@
 # !/usr/bin/env python
 #
-# Title:            Import_Safari_Bookmarks_To_Chrome.py
-# Author:           s-heiden
-# Setup:            make sure, terminal has full disk access: http://osxdaily.com/2018/10/09/fix-operation-not-permitted-terminal-error-macos/
+# title:            safarify
+# description:      import Safari bookmarks to Google Chrome
+# author:           s-heiden
+# date:             2019-05-19
+# setup:            make sure, terminal has full disk access: http://osxdaily.com/2018/10/09/fix-operation-not-permitted-terminal-error-macos/
 #
 import codecs
 import datetime
@@ -40,7 +42,8 @@ def main():
 
 
 def create_backup(chrome_path):
-    backup_path = chrome_path + '.' + datetime.datetime.today().strftime('%Y-%m-%d_%H-%M-%S') + '.bak'
+    backup_path = chrome_path + '.' + \
+        datetime.datetime.today().strftime('%Y-%m-%d_%H-%M-%S') + '.bak'
     print 'Creating backup of Chrome bookmarks at ' + backup_path + '...'
     shutil.copyfile(chrome_path, backup_path)
 
@@ -95,5 +98,6 @@ def elems_other_than(lst, key, value):
 
 
 if __name__ == '__main__':
-    sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'site-packages'))
+    sys.path.append(os.path.join(os.path.dirname(
+        os.path.abspath(__file__)), 'site-packages'))
     main()

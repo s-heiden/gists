@@ -1,9 +1,11 @@
 # !/usr/bin/env python
 #
-# Title:            Import_Chrome_Bookmarks_To_Safari.py
-# Author:           binss, s-heiden
-# Setup:            make sure, terminal has full disk access: http://osxdaily.com/2018/10/09/fix-operation-not-permitted-terminal-error-macos/
-# 
+# title:            chromify
+# description:      import Google Chrome bookmarks to Safari
+# author:           binss, s-heiden
+# date:             2019-05-19
+# setup:            make sure, terminal has full disk access: http://osxdaily.com/2018/10/09/fix-operation-not-permitted-terminal-error-macos/
+#
 
 import datetime
 import json
@@ -40,7 +42,8 @@ class BookmarkManager:
                 for child in children:
                     if child["type"] == "folder":
                         children, children_num = load_bookmark(child)
-                        bookmarks.append({"name": child["name"], "children": children})
+                        bookmarks.append(
+                            {"name": child["name"], "children": children})
                         number += children_num
                     else:
                         bookmark = {
@@ -128,5 +131,6 @@ def main():
 
 
 if __name__ == '__main__':
-    sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), "site-packages"))
+    sys.path.append(os.path.join(os.path.dirname(
+        os.path.abspath(__file__)), "site-packages"))
     main()
