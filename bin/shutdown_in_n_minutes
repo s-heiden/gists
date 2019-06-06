@@ -1,12 +1,12 @@
 #!/bin/bash
 #
-# title:            Shutdown_Mac_in_n_Minutes
+# title:            shutdown_in_n_minutes
 # author:           s-heiden
 # date:             2019-05-06
 #
 minutes=$1
 if [[ $minutes -ge 1 ]] ; then
-	minutes=$((minutes-1))
+    minutes=$((minutes-1))
 fi
 echo "The Shutdown dialog will be displayed in $minutes minutes."
 osascript -e '

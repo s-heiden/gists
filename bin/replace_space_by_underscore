@@ -1,0 +1,10 @@
+#!/bin/bash
+#
+# author:           s-heiden
+# name:             replace_space_by_underscore
+# description:      replaces all space characters in files in current directory by underscore character
+# date:             2019-05-25
+#
+for file in * ; do
+    mv "$file" "${file// /_}"
+done

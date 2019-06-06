@@ -1,7 +1,9 @@
 #!/bin/bash
 #
 # author:           s-heiden
-# name:             Unzip_ZIP_and_TAR_7Z_Files_Into_a_Folder_With_the_Name_of_the_Respective_Archive.sh
+# name:             unzip_all
+# description:      unzip zip and tar.7z archives into a folder with same name as archive file
+# date:             2019-04-28
 #
 
 for i in *.zip; do

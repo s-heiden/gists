@@ -1,10 +1,12 @@
 #!/bin/bash
 #
-# title:            Update_MP4_Title_According_To_Filename.sh
+# title:            mp4_title
+# description:      updates mp4 title attributes of files in current directory to their filename without suffix
 # author:           s-heiden
 # date:             2019-05-01
 # requirements:     ffmpeg, trash
 #
+
 if [ $# -ne 1 ] ; then
     echo "Usage: $(basename $0) Example.mp4"
 else
@@ -13,7 +15,7 @@ else
     dirname=$(dirname "$1")
     filename=$(basename "$1")
     temppath=${dirname}/.${filename}
-
+    
     ffmpeg -i "$path" -metadata Title="${path%.*}" -codec copy "$temppath"
     if [ -f "$temppath" ]; then
         trash "$path"
