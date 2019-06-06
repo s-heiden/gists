@@ -29,30 +29,15 @@ srt() {
 }
 
 #
-# Usage: imsg [whom] [what can contain spaces]
-#
-imsg() {
-    osascript -e "on run argv" \
-                -e "tell application \"Messages\"" \
-                    -e "set targetService to 1st service whose service type = iMessage" \
-                    -e "set targetBuddy to buddy (item 1 of argv) of targetService" \
-                    -e "send (item 2 of argv) to targetBuddy" \
-                -e "end tell" \
-            -e "end run"  \
-            "${1}" \
-            "${*:2}"
-}
-
-#
 # Usage: chromify
 #
 chromify() { 
-    python ~/Repositories/gists/bookmark_importers/Import_Chrome_Bookmarks_To_Safari.py 
+    python ~/Repositories/gists/python/chromify.py 
 }
 
 #
 # Usage: safarify
 #
 safarify() {
-    python ~/Repositories/gists/bookmark_importers/Import_Safari_Bookmarks_to_Chrome.py
+    python ~/Repositories/gists/python/safarify.py
 }
