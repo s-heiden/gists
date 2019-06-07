@@ -9,12 +9,12 @@
 #
 # Usage: imsg [iMessage ID] [your message]
 #
-osascript -e "on run argv" \
--e "tell application \"Messages\"" \
--e "set targetService to 1st service whose service type = iMessage" \
--e "set targetBuddy to buddy (item 1 of argv) of targetService" \
--e "send (item 2 of argv) to targetBuddy" \
--e "end tell" \
--e "end run"  \
-"${1}" \
-"${*:2}"
+osascript -e "\
+    on run argv
+        tell application \"Messages\"
+            set targetService to 1st service whose service type = iMessage
+            set targetBuddy to buddy (item 1 of argv) of targetService
+            send (item 2 of argv) to targetBuddy
+        end tell
+    end run
+" ${1} "${*:2}"
