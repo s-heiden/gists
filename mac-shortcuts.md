@@ -1,24 +1,34 @@
+# Finder
+
+## back
+
+`cmd ö`
+
+## forward
+
+`cmd ä`
+
 # Chrome
 
 ## developer menu:
 
 `cmd + alt + i`
 
-## back:
+## back
 
 `cmd + ◀︎`
 
-## go to adress bar:
+## go to adress bar
 
 `cmd + l`
 
 # Anki
 
-## enumerate selection:
+## enumerate selection
 
 `cmd + alt + 5`
 
-## save card:
+## save card
 
 `cmd + enter`
 
