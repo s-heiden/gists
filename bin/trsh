@@ -1,0 +1,32 @@
+#
+# finds unwanted files and directories belonging to uninstalled software and trashes it if required
+#
+trsh() {
+    IFS=$'\n'
+    found=( `find /Users/stefan -name "*\.$1\.*" -o -name "^$1\.*" -o -name "*\.$1$" 2>/dev/null` )
+    
+    if [ ${#found[@]} -eq 0 ]; then
+        return
+    fi
+    
+    echo ""
+    echo "Found files: "
+    
+    for i in "${found[@]}"
+    do
+        :
+        echo $i
+    done
+    
+    echo ""
+    echo "Would you like to trash these files?   (y/n)"
+    read -p "   " -n1 ans
+    
+    if [ $ans == "y" ]; then
+        for i in "${found[@]}"
+        do
+            :
+            trash $i
+        done
+    fi
+}
