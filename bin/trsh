@@ -1,9 +1,26 @@
+#!/bin/bash
 #
-# finds unwanted files and directories belonging to uninstalled software and trashes it if required
+# title:            trsh
+# descriptions:     find unwanted files and directories belonging to obsolete software and trash them
+# author:           s-heiden
+# date:             2019-06-10
+# requirements:     trash
 #
 trsh() {
     IFS=$'\n'
-    found=( `find /Users/stefan -name "*\.$1\.*" -o -name "^$1\.*" -o -name "*\.$1$" 2>/dev/null` )
+    
+    #
+    # search for hyphen/dot/slash as separator (s) in combination with the argument, the filename start ^, or the filename end $
+    #
+    #                         s arg s              ^ arg s                s arg $                ignore stderr        ignore trash
+    #
+    found=( `find / \( -iname "*[.\-/]$1[.\-/]*" -o -iname "^$1[.\-/]*" -o -iname "*[.\-/]$1$" \) 2>/dev/null | grep -v ".Trash"` )
+    
+    #
+    # add files/dirs in the spotlight index that match arg
+    #
+    found+=( `mdfind -name "$1" | grep "$1" | grep -v -e "webhistory" -e "homebrew-cask" -e "homebrew-core" -e "IndexedDB"` )
+    
     
     if [ ${#found[@]} -eq 0 ]; then
         return
@@ -20,7 +37,8 @@ trsh() {
     
     echo ""
     echo "Would you like to trash these files?   (y/n)"
-    read -p "   " -n1 ans
+    read -p "" -n1 ans
+    echo ""
     
     if [ $ans == "y" ]; then
         for i in "${found[@]}"
