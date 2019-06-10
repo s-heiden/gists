@@ -24,11 +24,14 @@
 
 # Anki
 
-## enumerate selection
+## enumerate line
 
 `cmd + alt + 5`
+
+## ident line
+
+`cmd + alt + shift + 6`
 
 ## save card
 
 `cmd + enter`
-
