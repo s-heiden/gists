@@ -9,16 +9,16 @@
 #
 hello() {
     osascript -e "on run argv" \
-                -e "return \"hello, \" & item 1 of argv & \".\"" \
-                -e "end run" \
-                "$1"
+    -e "return \"hello, \" & item 1 of argv & \".\"" \
+    -e "end run" \
+    "$1"
 }
 
 #
 # Usage: compresspdf [input file] [output file] [screen*|ebook|printer|prepress]
 #
-compresspdf() { 
-    gs -sDEVICE=pdfwrite -dNOPAUSE -dQUIET -dBATCH -dPDFSETTINGS=/${3:-"screen"} -dCompatibilityLevel=1.4 -sOutputFile="$2" "$1" 
+compresspdf() {
+    gs -sDEVICE=pdfwrite -dNOPAUSE -dQUIET -dBATCH -dPDFSETTINGS=/${3:-"screen"} -dCompatibilityLevel=1.4 -sOutputFile="$2" "$1"
 }
 
 #
@@ -31,8 +31,8 @@ srt() {
 #
 # Usage: chromify
 #
-chromify() { 
-    python ~/Repositories/gists/python/chromify.py 
+chromify() {
+    python ~/Repositories/gists/python/chromify.py
 }
 
 #
@@ -40,4 +40,11 @@ chromify() {
 #
 safarify() {
     python ~/Repositories/gists/python/safarify.py
+}
+
+#
+# Usage: fnd [quoted pattern]
+#
+fnd() {
+    find / -name "$1" 2>/dev/null
 }
