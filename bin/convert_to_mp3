@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # title:            convert_2_mp3
-# descriptions:     converts MP4 and FLAC files in current directory to MP3
+# descriptions:     convert MP4 and FLAC files in current directory to MP3
 # author:           s-heiden
 # date:             2019-05-01
 # requirements:     lame

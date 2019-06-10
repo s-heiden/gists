@@ -5,7 +5,7 @@
 # author:           s-heiden
 # date:             2019-05-21
 # requirements:     'html2text'
-# setup:            Create a file called ".cis" in the folder ".config" of your home directory
+# setup:            Create a file called ".cis" in the folder ".config" of your home directory.
 #                   The file should contain one line with your username and password separated by a colon.
 #
 #                   e.g.
