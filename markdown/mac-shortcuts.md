@@ -1,5 +1,3 @@
-
-
 # Anki
 
 #### enumerate line
@@ -14,20 +12,32 @@
 
 `cmd + enter`
 
+## superscript
+
+`cmd +`
+
+## subscript
+
+`cmd =`
+
 
 # Chrome
 
 #### developer menu:
 
-`cmd + alt + i`
+`cmd alt i`
 
 #### back
 
-`cmd + ◀︎`
+`cmd ◀︎`
+
+## add bookmark
+
+`cmd d`
 
 #### go to adress bar
 
-`cmd + l`
+`cmd l`
 
 
 # Code
@@ -35,7 +45,6 @@
 #### apply quick fix
 
 `cmd + shift + .`
-
 
 # Finder
 
