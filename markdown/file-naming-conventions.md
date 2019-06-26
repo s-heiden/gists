@@ -30,6 +30,6 @@ https://google.github.io/styleguide/shell.xml
 
 ## Documents and Document Folders
 
-I could not find a standard, so I will continue using the system I used before, as per: `2019-05 - Korrekte Rechtschreibung in deutscher Sprache, Schlagwörter getrennt mit Kommata für bessere Auffindbarkeit.doc`
+I could not find a standard, so I will continue using the system I used before, as per: `2019-05[-01] - Korrekte Rechtschreibung in deutscher Sprache, Schlagwörter getrennt mit Kommata für bessere Auffindbarkeit.doc`.
 
 Folder names are capitalized and consist of orthographically correct nouns and spaces.
