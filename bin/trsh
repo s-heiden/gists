@@ -6,45 +6,43 @@
 # date:             2019-06-10
 # requirements:     trash
 #
-trsh() {
-    IFS=$'\n'
-    
-    #
-    # search for hyphen/dot/slash as separator (s) in combination with the argument, the filename start ^, or the filename end $
-    #
-    #                         s arg s              ^ arg s                s arg $                ignore stderr        ignore trash
-    #
-    found=( `find / \( -iname "*[.\-/]$1[.\-/]*" -o -iname "^$1[.\-/]*" -o -iname "*[.\-/]$1$" \) 2>/dev/null | grep -v ".Trash"` )
-    
-    #
-    # add files/dirs in the spotlight index that match arg
-    #
-    found+=( `mdfind -name "$1" | grep "$1" | grep -v -e "webhistory" -e "homebrew-cask" -e "homebrew-core" -e "IndexedDB"` )
-    
-    
-    if [ ${#found[@]} -eq 0 ]; then
-        return
-    fi
-    
-    echo ""
-    echo "Found files: "
-    
+IFS=$'\n'
+
+#
+# search for hyphen/dot/slash as separator (s) in combination with the argument, the filename start ^, or the filename end $
+#
+#                         s arg s              ^ arg s                s arg $                ignore stderr        ignore trash
+#
+found=( `find / \( -iname "*[.\-/]$1[.\-/]*" -o -iname "^$1[.\-/]*" -o -iname "*[.\-/]$1$" \) 2>/dev/null | grep -v ".Trash"` )
+
+#
+# add files/dirs in the spotlight index that match arg
+#
+found+=( `mdfind -name "$1" | grep "$1" | grep -v -e "webhistory" -e "homebrew-cask" -e "homebrew-core" -e "IndexedDB"` )
+
+
+if [ ${#found[@]} -eq 0 ]; then
+    return
+fi
+
+echo ""
+echo "Found files: "
+
+for i in "${found[@]}"
+do
+    :
+    echo $i
+done
+
+echo ""
+echo "Would you like to trash these files?   (y/n)"
+read -p "" -n1 ans
+echo ""
+
+if [ $ans == "y" ]; then
     for i in "${found[@]}"
     do
         :
-        echo $i
+        trash $i
     done
-    
-    echo ""
-    echo "Would you like to trash these files?   (y/n)"
-    read -p "" -n1 ans
-    echo ""
-    
-    if [ $ans == "y" ]; then
-        for i in "${found[@]}"
-        do
-            :
-            trash $i
-        done
-    fi
-}
+fi
