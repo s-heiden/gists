@@ -46,6 +46,10 @@
 
 `cmd + shift + .`
 
+#### move cursor to begining of last word
+`alt + ◀︎`
+
+
 # Finder
 
 #### back
