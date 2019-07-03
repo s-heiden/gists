@@ -25,6 +25,7 @@ https://www.python.org/dev/peps/pep-0008/#package-and-module-names
 ## Shell
 
 > Lowercase, with underscores to separate words if desired.
+> Executables should have no extension (strongly preferred) or a .sh extension. Libraries must have a .sh extension and should not be executable.
 
 https://google.github.io/styleguide/shell.xml
 
@@ -32,4 +33,10 @@ https://google.github.io/styleguide/shell.xml
 
 I could not find a standard, so I will continue using the system I used before, as per: `2019-05[-01] - Korrekte Rechtschreibung in deutscher Sprache, Schlagwörter getrennt mit Kommata für bessere Auffindbarkeit.doc`.
 
-Folder names are capitalized and consist of orthographically correct nouns and spaces.
+Document folder names are correctly capitalized and consist of orthographically correct nouns and spaces in English or German.
+
+## AppleScript
+
+> `askFinder.scpt`, `myScript.scpt`, `aScriptFile.scpt`, `makeFilterer.scpt`, `helloAS.scpt`
+
+AppleScript: The Definitive Guide, 2nd Edition. Scripting and Automating Your Mac
