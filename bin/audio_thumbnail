@@ -1,0 +1,41 @@
+#!/bin/bash
+#
+# title:            audio_thumbnail
+# description:      create an audio thumbnail comprising of the initial 5s of a track and a bulk import csv file for Anki
+# author:           s-heiden
+# date:             2019-07-03
+# requirements:     ffmpeg
+#
+
+
+mediaFolder="/Users/stefan/Library/Application\ Support/Anki2/Benutzer\ 1/collection.media/"
+
+executionFolder=`basename "$PWD"`
+tempDir="./temp/"
+
+mkdir $tempDir
+
+IFS=$'\n'
+for i in $(find . -name "*.mp3") ; do
+    sourceFilename="$i"
+    destFilename="$tempDir$sourceFilename"
+    destFilename="${destFilename// /_}"
+    ffmpeg -n -t 4 -i $sourceFilename -acodec libmp3lame -b:a 14k -ac 1 -ar 11025 $destFilename # replace `libmp3lame -b:a 16k -ac 1 -ar 11025` with `-acodec copy` for original quality
+done
+
+#
+# create a batch import file on the desktop
+#
+cd $tempDir
+
+for f in *.mp3; do
+    echo -e "[sound:${f}]\t${f%%.*}" ; 
+done >> ./../${executionFolder// /_}.csv
+
+cd ..
+
+#
+# move thumbnails into mediaFolder
+#
+echo Please perform manually:
+echo "mv -f temp/*.mp3 $mediaFolder; rm -r $tempDir"
