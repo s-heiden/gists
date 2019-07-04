@@ -3,7 +3,6 @@
 1. Edit all files using MusicBrainz Picard.
     Required attributes:
         - `albumartist` or `artist`
-        - `data`
         - `album`
         - `releasetype`
         - `totaldiscs`
