@@ -1,14 +1,18 @@
 #!/bin/bash
 #
-# title:            audio_thumbnail
-# description:      create an audio thumbnail comprising of the initial 5s of a track and a bulk import csv file for Anki
+# title:            albums_to_anki_cards
+# description:      creates audio thumbnails for a set of mp3 album folders, adds them to an anki bulk import file, moves them to the anki media folder
 # author:           s-heiden
 # date:             2019-07-03
 # requirements:     ffmpeg
 #
 
-
+#
+# Configuration
+#
 mediaFolder="/Users/stefan/Library/Application\ Support/Anki2/Benutzer\ 1/collection.media/"
+
+# TODO apply the script to all subfolders containing album folders and only create one anki bulk import file for all
 
 executionFolder=`basename "$PWD"`
 tempDir="./temp/"
@@ -20,11 +24,11 @@ for i in $(find . -name "*.mp3") ; do
     sourceFilename="$i"
     destFilename="$tempDir$sourceFilename"
     destFilename="${destFilename// /_}"
-    ffmpeg -n -t 4 -i $sourceFilename -acodec libmp3lame -b:a 14k -ac 1 -ar 11025 $destFilename # replace `libmp3lame -b:a 16k -ac 1 -ar 11025` with `-acodec copy` for original quality
+    ffmpeg -hide_banner -loglevel fatal -n -t 4 -i $sourceFilename -acodec libmp3lame -b:a 14k -ac 1 -ar 11025 $destFilename 
 done
 
 #
-# create a batch import file on the desktop
+# create a batch import file
 #
 cd $tempDir
 
@@ -33,6 +37,8 @@ for f in *.mp3; do
 done >> ./../${executionFolder// /_}.csv
 
 cd ..
+
+# TODO solve automatically
 
 #
 # move thumbnails into mediaFolder
