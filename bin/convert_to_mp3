@@ -4,11 +4,11 @@
 # descriptions:     convert MP4 and FLAC files in current directory to MP3
 # author:           s-heiden
 # date:             2019-05-01
-# requirements:     lame
+# requirements:     ffmpeg, lame
 #
 shopt -s extglob
 for filename in *(*.mp4|*.flac); do
     new_filename=${filename%.*}.mp3
     echo Converting $filename to $new_filename
-    ffmpeg -i "$filename" -codec:a libmp3lame -q:a 0 -map_metadata 0 "$new_filename"
+    ffmpeg -hide_banner -loglevel fatal -i "$filename" -codec:a libmp3lame -q:a 0 -map_metadata 0 "$new_filename" -vsync 2
 done
