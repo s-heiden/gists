@@ -1,0 +1,26 @@
+#!/bin/bash
+#
+# title:            mp3_adapt_quality
+# descriptions:     adapts quality of mp3 to variable bitrate averaging at 245kbit/s
+# author:           s-heiden
+# date:             2019-07-04
+# requirements:     ffmpeg, lame
+#
+
+#
+# mp3 target quality
+#
+targetQuality="-q:a 0"
+
+#
+# log level
+#
+logLevel="-hide_banner -loglevel fatal"
+
+shopt -s extglob
+for filename in *(*.mp3|*.mp3.bak) ; do
+    bakFilename=${filename}.bak
+    mv "${filename}" "${bakFilename}"
+    echo Converting $filename...
+    ffmpeg ${logLevel} -i "${bakFilename}" -codec:a libmp3lame ${targetQuality} -map_metadata 0 "${filename}" -vsync 2
+done
