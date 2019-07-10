@@ -54,4 +54,9 @@ fnd() {
 #
 trello() {
     python ./python/trello_archiver.py
+    
+# Usage: remotes
+#
+remotes() {
+    for branch in `git branch -r | grep -v HEAD`; do echo -e `git show --format="%ci %cr %an" $branch | head -n 1` \\t$branch; done | sort -r
 }
