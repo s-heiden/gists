@@ -16,6 +16,8 @@ https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Deal
 
 https://www.cirosantilli.com/markdown-style-guide/#file-name
 
+This convention is also applied to folders containing markdown files.
+
 ## Python
 
 > [L]owercase names. Underscores can be used in the module name if it improves readability
@@ -25,7 +27,7 @@ https://www.python.org/dev/peps/pep-0008/#package-and-module-names
 ## Shell
 
 > Lowercase, with underscores to separate words if desired.
-> Executables should have no extension (strongly preferred) or a .sh extension. Libraries must have a .sh extension and should not be executable.
+> Executables should have no extension (strongly preferred) or a `.sh` extension. Libraries must have a `.sh` extension and should not be executable.
 
 https://google.github.io/styleguide/shell.xml
 
@@ -34,6 +36,8 @@ https://google.github.io/styleguide/shell.xml
 I could not find a standard, so I will continue using the system I used before, as per: `2019-05[-01] - Korrekte Rechtschreibung in deutscher Sprache, Schlagwörter getrennt mit Kommata für bessere Auffindbarkeit.doc`.
 
 Document folder names are correctly capitalized and consist of orthographically correct nouns and spaces in English or German.
+
+Files and folders can have a version number, separated by a space character, as the last part of the name, e.g. `2019-01 - Example document 0.0.1.docx`.
 
 ## AppleScript
 
