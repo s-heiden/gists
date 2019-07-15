@@ -18,13 +18,13 @@ An athlete adhering this convention shall:
 
   > Repetition Addition: […] aims to increase the repetitions in all […] sets over a period of a week or two. […] If you cannot improve all of your repetitions in every set, using this method is one way to bridge the gap. [OG p.??]
 
-  A sequence here might look like `3+3+3, 3+4+3, 3+4+4, 4+4+4`.
+  A sequence of workouts here might look like `3, 3, 3`, `3, 4, 3`, and finally `4, 4, 4`.
 
 - Consider the exercsises individually to gauge progress.
 - Note if adding a repetition to a certain exercise is impossible and in this case deload in the next workout by subtracting two repetitions from each of the sets of the last week. In the subsequent workout, this reduction is reversed.
 - Following Steven Low's advice, use the "Additional Set" method for pulling exercises.
 
-  In the interpretation of the method used here, a sequence looks like this: `3x5, 4x5, 5x5, 6x5, 3x6, ...` or rather `3x5, 3x5+3, 3x5+4, 4x5, ... 3x6 ...`
+  In the interpretation of the method used here, a sequence looks like this: `3x5`, `4x5`, `5x5`, `6x5`, `3x6`, or more realistically `3x5`, `3x5, 3`, `3x5, 4`, `4x5`, ... `3x6`.
 
   For exercises that are performed using the "Additional Set" method and that exceed the time required for circuit training, the usual time period applies. In addition, a pause of the same duration is granted.
 
