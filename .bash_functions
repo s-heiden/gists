@@ -32,14 +32,14 @@ srt() {
 # Usage: chromify
 #
 chromify() {
-    python ~/Repositories/gists/python/chromify.py
+    python ./python/chromify.py
 }
 
 #
 # Usage: safarify
 #
 safarify() {
-    python ~/Repositories/gists/python/safarify.py
+    python ./python/safarify.py
 }
 
 #
@@ -47,4 +47,11 @@ safarify() {
 #
 fnd() {
     find / -name "$1" 2>/dev/null
+}
+
+#
+# Usage: trello
+#
+trello() {
+    python ./python/trello_archiver.py
 }
