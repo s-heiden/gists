@@ -2,6 +2,16 @@
 
 > _The best program is the one you stick to._
 
+## Workout Structure
+
+Since it has proven both simple and effective, workouts are structured as circuit, with two minutes available for one set.
+
+Unilateral exercises such as the Pistol Squat or the Kettlebell Press are understood as one set. This means, both sides are carried out within one two minute time span. The amount of repetitions of the side with the smaller number of repetitions is logged.
+
+## The Microcycle
+
+As has been common practice for years, three days of workouts are followed by one or two days of rest.
+
 ## Repetition Range
 
 In "Overcoming Gravity" 2nd edition (henceforth: OG), Steven Low advises "Trained Beginners" to
@@ -21,7 +31,7 @@ An athlete adhering this convention shall:
   A sequence of workouts here might look like `3, 3, 3`, `3, 4, 3`, and finally `4, 4, 4`.
 
 - Consider the exercsises individually to gauge progress.
-- Note if adding a repetition to a certain exercise is impossible and in this case deload in the next workout by subtracting two repetitions from each of the sets of the last week. In the subsequent workout, this reduction is reversed.
+- Note if adding a repetition to a certain exercise (ie. progress) is impossible and in this case deload in the next workout by subtracting two repetitions from each of the sets of the last week. In the subsequent workout, this reduction is reversed.
 - Following Steven Low's advice, use the "Additional Set" method for pulling exercises.
 
   In the interpretation of the method used here, a sequence looks like this: `3x5`, `4x5`, `5x5`, `6x5`, `3x6`, or more realistically `3x5`, `3x5, 3`, `3x5, 4`, `4x5`, ... `3x6`.
