@@ -19,7 +19,7 @@ Also food is selected according to the principles of **simplicity, cleanliness (
 - orange juice
 - skim milk
 
-### Food
+### Fruit/Vegetables
 - bananas
 - peaches
 - nectarines
@@ -29,15 +29,15 @@ Also food is selected according to the principles of **simplicity, cleanliness (
 - potatoes
 - nuts
 
-### milk products
+### Milk Products
 - quark
 - cottage cheese
 - cream cheese
 
-### bread
+### Bread
 - sliced bread
 
-### fish and meat
+### Fish/Meat
 - tuna cans
 
 
