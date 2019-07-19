@@ -1,0 +1,14 @@
+#!/bin/bash
+#
+# title:            convert_mov_to_mp4
+# descriptions:     convert MOV files in current directory to MP4
+# author:           s-heiden
+# date:             2019-07-19
+# requirements:     ffmpeg
+#
+shopt -s extglob
+for filename in *(*.mov); do
+    new_filename=${filename%.*}.mp4
+    echo Converting $filename to $new_filename
+    ffmpeg -hide_banner -loglevel fatal -i "$filename" -qscale 0 "$new_filename"
+done
