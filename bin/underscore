@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # author:           s-heiden
-# name:             replace_space_by_underscore
+# name:             underscore
 # description:      replaces all space characters in files in current directory by underscore character
 # date:             2019-05-25
 #
