@@ -54,7 +54,8 @@ fnd() {
 #
 trello() {
     python ./python/trello_archiver.py
-    
+}
+
 # Usage: remotes
 #
 remotes() {
