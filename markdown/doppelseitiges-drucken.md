@@ -1,8 +1,8 @@
 # Wie man doppelseitig druckt:
 
 - **ungerade** Seiten in **umgekehrter Reihenfolge** drucken
-- Papier so in den Papierträger einlegen, dass die leere Seite zum Boden schaut und die obere Kante des bedruckten Blatts an der Rückwand des Druckers liegt
-- **gerade Seiten** in **gewöhnlicher Reihenfolge** drucken
+- Papier so in den Papiertr盲ger einlegen, dass die leere Seite zum Boden schaut und die obere Kante des bedruckten Blatts an der R眉ckwand des Druckers liegt
+- **gerade Seiten** in **gew枚hnlicher Reihenfolge** drucken
 
 # How to print on both sides:
 
