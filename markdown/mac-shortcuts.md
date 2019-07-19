@@ -20,7 +20,6 @@
 
 `cmd =`
 
-
 # Chrome
 
 #### developer menu:
@@ -47,8 +46,12 @@
 `cmd + shift + .`
 
 #### move cursor to begining of last word
+
 `alt + ◀︎`
 
+#### reveal active file in sidebar
+
+`ctrl + alt + cmd + r`
 
 # Finder
 
