@@ -1,25 +1,17 @@
 This file specifies how I want to manage my belongings. It clarifies the questions of when to purchase items, how to store them, and how to dispose of them.
 
-## Rooms & Colors
-
-|                     | Bedroom:                                          | Living Room              | Office       |
-| ------------------- | ------------------------------------------------- | ------------------------ | ------------ |
-| Base Color          | International Klein Blue, Cobalt, Saphire         | Turquoise, Tiffany, Aqua | Olive        |
-| Base Color Hex      | `#0030A7`                                         | `#95c2bf`                | `#808000`    |
-| Secondary Color     | Peach, Unsaturated Orange                         | red                      | Honey Flower |
-| Secondary Color Hex | `#F98E00`                                         |                          | `#390555`    |
-| Eyecatcher          | LP "Shrink" by The Notwist, Everything Yves Klein | Söderhamn-Recamiere      | Teppich      |
-
 ## Refrigerator
 
 Also food is selected according to the principles of **simplicity, cleanliness (waste and dirt prevention) and beauty**:
 
 ### Beverages
+
 - multivitamin juice
 - orange juice
 - skim milk
 
 ### Fruit/Vegetables
+
 - bananas
 - peaches
 - nectarines
@@ -30,21 +22,52 @@ Also food is selected according to the principles of **simplicity, cleanliness (
 - nuts
 
 ### Milk Products
+
 - quark
 - cottage cheese
 - cream cheese
 
 ### Bread
+
 - sliced bread
 
 ### Fish/Meat
+
 - tuna cans
 
+## Digital Belongings
+
+- There is only one version of the set of Media and Documents which I keep.
+- For simplicity and security, services that are automatically backed up are preferred.
+
+| Thing                              | Location                                | Notes                                |
+| ---------------------------------- | --------------------------------------- | ------------------------------------ |
+| 1Password Vault                    | Dropbox                                 |                                      |
+| Audio Books                        | Volume "Media" on WD My Passport        |                                      |
+| Backups                            | Volume "Time Machine" on WD My Passport |                                      |
+| Inspirational Photos               | Google Drive                            |                                      |
+| Movies                             | Volume "Media" on WD My Passport        |                                      |
+| Music                              | Volume "Media" on WD My Passport        |                                      |
+| My Diaries                         | Dropbox                                 |                                      |
+| My Letters                         | Dropbox                                 |                                      |
+| My Music Projects                  | Dropbox                                 |                                      |
+| My Photos                          | Google Photos                           | including home videos                |
+| My Reflections                     | Dropbox                                 | including diaries, and journey plans |
+| My Sport Files                     | Dropbox                                 |                                      |
+| Private Repositories               | github.com                              |                                      |
+| Radio Broadcasts                   | Volume "Media" on WD My Passport        |                                      |
+| Software Installers                | Volume "Media" on WD My Passport        |                                      |
+| TV Series                          | Volume "Media" on WD My Passport        |                                      |
+| User-Specific Application Settings | Dropbox                                 |                                      |
+| Virtual Machines                   | WD My Passport                          |                                      |
 
 ## Physical Record Collection
 
 - Buy only records that mean something special to you and don't buy them to complete a discography.
 
+## Physical Book Collection
+
+- C.f. Physical Record Collection
 
 ## Digital Record Collection
 
