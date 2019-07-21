@@ -49,28 +49,43 @@ Files and folders can have a version number, separated by a space character, as 
 
 ### Music Collection
 
-As it has proved to be both simple and effective, music files are named automatically by MusicBrainz Picard using the following settings:
+As has proved both simple and effective, files are structured in directories, as for example `/The Beatles/1965-08-06; Help! (album; soundtrack)/07 Ticket to Ride.mp3`
 
-- `Move files when saving` = `TRUE`
-- `Destination directory` = `/Volumes/Media/Musik/`
-- `Move additional files` = `FALSE`
-- `Delete empty directories` = `TRUE`
-- `Rename files when saving` = `TRUE`
-- `Replace non-ASCII characters` = `FALSE`
-- `Windows compatibility` = `TRUE`
-- `Name files like this` = `$if2(%albumartist%,%artist%)/$if(%date%, %date%; )%album%$if(%releasetype%, \(%releasetype%\))/$if($gt(%totaldiscs%,1),%discnumber%-,)$num(%tracknumber%,2)\$if(%compilation%, %artist% -,) %title%`
+Files are named automatically by *MusicBrainz Picard* based on ID3 tags present in the files.
 
-For music files to be named properly, the following attributes are required:
+In the options pane *File Naming*, the following settings are used:
+
+- Move files when saving: `TRUE`
+- Destination directory: `/Volumes/Media/Musik/` or `/Volumes/Media/Hörbücher/`
+- Move additional files: `FALSE`
+- Delete empty directories: `TRUE`
+- Rename files when saving: `TRUE`
+- Replace non-ASCII characters= `FALSE`
+- Windows compatibility: `TRUE`
+- Name files like this: `$if2(%albumartist%,%artist%)/$if(%date%, %date%; )%album%$if(%releasetype%, \(%releasetype%\))/$if($gt(%totaldiscs%,1),%discnumber%-,)$num(%tracknumber%,2)$if(%compilation%, - %artist%,)$if(%title%, - %title%,)`
+
+For music files to be named properly, the following ID3 tags are required:
 
 - `albumartist` or `artist`
 - `album`
-- `releasetype`
-- `totaldiscs`
-- `discnumber`
-- `tracknumber`
-- `title`
-- `date`
+- `tracknumber` 
+- `date` (recommended)
+- `title` (recommended)
+- `releasetype` (recommended)
+- `totaldiscs` (optional)
+- `discnumber` (optional)
 
-Moreover, in case of compilations this attribute can be added:
+Moreover, in case of compilations the attribute `compilation` with value `1` is added.
 
-- `compilation` = `1`
+### Audiobook Collection
+
+The same settings apply as in section *Music Collection*. In this context, ID3 tags are understoods as follows:
+
+- author, eg. "Franz Kafka": `albumartist` or `artist`
+- audiobook title: `album`
+- track number: `tracknumber`
+- audiobook release date: `date`
+- audiobook narrator: `releasetype` (optional)
+- number of discs: `totaldiscs` (optional)
+- disc number: `discnumber` (optional)
+- track title: `title` (optional)

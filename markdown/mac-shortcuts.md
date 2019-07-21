@@ -38,7 +38,6 @@
 
 `cmd l`
 
-
 # Code
 
 #### apply quick fix
