@@ -90,6 +90,8 @@ The same settings apply as in section _Music Collection_. In this context, ID3 t
 - disc number: `discnumber` (optional)
 - track title: `title` (optional)
 
+In addition, the attribute `audiobook` must be set to `1` .
+
 ### Podcasts and Radio Broadcasts
 
 The same settings apply as in section _Music Collection_. In this context, ID3 tags are understoods as follows:
@@ -103,4 +105,4 @@ The same settings apply as in section _Music Collection_. In this context, ID3 t
 - undefined: `totaldiscs` (deprecated)
 - undefined: `discnumber` (deprecated)
 
-In addition, the attribute `podcast` with value `1` must be set.
+In addition, the attribute `podcast` must be set to `1`.
