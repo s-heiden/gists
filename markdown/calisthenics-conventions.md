@@ -4,9 +4,22 @@
 
 ## Workout Structure
 
-Since it has proven both simple and effective, workouts are structured as circuit, with two minutes available for one set.
+Since it has proven simple and effective, workouts are structured as circuit.
 
-Unilateral exercises such as the Pistol Squat or the Kettlebell Press are understood as one set. This means, both sides are carried out within one two minute time span. The amount of repetitions of the side with the smaller number of repetitions is logged.
+As a rule, a time span of 2 minutes is allowed for each individual set.
+
+### Special Case Unilateral Exercises
+
+By definition, unilateral exercises such as the [Pistol Squat](https://exrx.net/WeightExercises/Quadriceps/BWSingleLegSquat) or the [Kettlebell Press](https://exrx.net/WeightExercises/Kettlebell/KBPress) can be divided into a left hand version as well as a right hand version. During training both versions are understood as forming a unit.
+
+As a rule, all repetitions of this unit are executed within one set. This can be achieved in two ways:
+
+- alternatingly: one repetition of the left hand version, one repetition of the right hand version, and so on
+- sequentially: all repetitions of the left hand version followed by all repetitions of the right hand version
+
+As a consequence, all repetitions of both versions are carried out within one two minute time span. You will notice that the pairing of the two versions to a unit doubles the total number of repetitions within one set. To counteract this, an additional 2 minute span of rest is allowed if 7.5 repetitions per set (ie. half the upper limit of the repetition range) are exceeded.
+
+In every case, the amount of repetitions of the side with the smaller number of repetitions is logged.
 
 ## The Microcycle
 
