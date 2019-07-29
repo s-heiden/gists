@@ -61,3 +61,9 @@
 #### forward
 
 `cmd ä`
+
+# Finder
+
+#### fully expand tree node
+
+`*`
