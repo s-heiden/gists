@@ -67,3 +67,11 @@
 #### fully expand tree node
 
 `*`
+
+#### all actions
+
+`shift + cmd + a`
+
+#### show quick documentation
+
+`ctrl + j`
