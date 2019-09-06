@@ -47,6 +47,30 @@ Files and folders can have a version number, separated by a space character, as 
 
 ## Media Files
 
+### Book Collection
+
+Books are automatically named by _Calibre_. The names used are stored in the `metadata.db` file created by _Calibre_.
+
+The properties `Title`, `Title sort`, `Author(s)`, `Author sort`, `Published`, `Publisher`, `Languages` are entered in _Calibre_.
+
+For `Published`: if the month of publication is not known, `01` is provided.
+
+Subject `Title`: Title and subtitle are divided by the same separator as used on the title page. If no separator is used on the title page, `. ` (DE) or `: ` (EN) is used.
+
+Examples taken from [https://help.goodreads.com/s/article/Librarian-Manual-Book-edit-page-the-title-field](https://help.goodreads.com/s/article/Librarian-Manual-Book-edit-page-the-title-field):
+
+
+> #### Examples of subtitles:
+> 
+> - Anne Frank: The Diary of a Young Girl
+> - Ghosts of Gettysburg: Spirits, Apparitions and Haunted Places of the Battlefield
+> - Alice und das Land im Nadelöhr. Die weiteren Abenteuer von Alice im Wunderland
+> - Birdsong: A Novel of Love and War
+> 
+> #### Not:
+> 
+> - Among the Living: A PsyCop Novel
+
 ### Music Collection
 
 As has proved both simple and effective, files are structured in directories, as for example `/The Beatles/1965-08-06; Help! (album; soundtrack)/07 Ticket to Ride.mp3`
