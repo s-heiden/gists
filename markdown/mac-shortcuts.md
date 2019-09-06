@@ -62,7 +62,7 @@
 
 `cmd ä`
 
-# Finder
+# IntelliJ
 
 #### fully expand tree node
 
@@ -75,3 +75,7 @@
 #### show quick documentation
 
 `ctrl + j`
+
+#### go to implementation
+
+`cmd + alt + b`
