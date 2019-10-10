@@ -10,6 +10,7 @@ Sources:
 
 - Put the zabuton on its place
 - Put the zafo on its place on the wall
+- Clear and wipe off the table
 - Perform stretches as given in "How to Grow a Lotus" for one minute
 - Wash your feet/face
 - Put on dark/soft pants
@@ -26,18 +27,16 @@ Sources:
 
 ### Arriving at your seat
 
-- When you arrive at your seat, face the seat and bow in gassho.
+- When you arrive at your seat, knee down and, move the zafu on its place
+- Stand up, face the zafu and bow in gassho.
 - Then, turn around to the right until your seat is behind you, and bow again.
 - Turn around to the right.
 - Sit down on your zafu, and sit facing the wall.
-- Then, place both hands under your buttocks and tilt forward so your weight is
-  solidly on your sit bones. Lengthen/stretch the buttocks back with your hands, and then
-  straighten up.
 - Place your hands palms-up on your knees and sway the upper half of your body from left to right a few times.
-- When the bell is rung twice at the end of a period of zazen, bow in gassho
-- place your hands palms-up on your thighs; sway your body a few times, first a little, and then in bigger movements.
+- When the bell is rung twice at the end of a period of zazen, bow in gassho.
+- Place your hands palms-up on your thighs; sway your body a few times, first a little, and then in bigger movements.
 - Unfold your legs.
-- Stand up slowly, plump up the sitting cushions and move the zafo to the wall.
+- Stand up slowly, kneel down, correct the zafu and move the zafu to the wall, label facing the all.
 - Turn clockwise.
 - Bow in Gassho into the room.
 
