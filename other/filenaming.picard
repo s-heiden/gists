@@ -1,0 +1,119 @@
+$set(_pathSeparator,/)
+$set(_audiobookFolder,Hörbücher)
+$set(_musicFolder,Musik)
+$set(_podcastFolder,Podcasts)
+$set(_spaceChar, )  
+
+
+$noop(ROOT FOLDER)
+$noop(====================================================)
+
+$set(_rootFolderMain,%_musicFolder%)
+
+$if(
+	$eq(%audiobook%,1),
+	$set(_rootFolderMain,%_audiobookFolder%)
+)
+
+$if(
+	$eq(%podcast%,1),
+	$set(_rootFolderMain,%_podcastFolder%)
+)
+
+$set(_rootFolder,%_rootFolderMain%%_pathSeparator%)
+
+
+$noop(PRIMARY FOLDER)
+$noop(====================================================)
+
+$if(
+    %albumartist%,
+    $set(_primaryFolder,%albumartist%%_pathSeparator%)
+)
+
+$if(
+    %artist%,
+    $set(_primaryFolder,%artist%%_pathSeparator%)
+)
+
+$noop(PREFIX OF SECONDARY FOLDER)
+$if(
+	$and(
+		%date%,
+		$not(
+			$eq(
+				%podcast%,
+				1
+			)
+		)
+	),
+	$set(
+		_secondaryPrefix,
+		%date%;%_spaceChar%
+	)
+)
+
+$noop(====================================================)
+$noop(SECONDARY FOLDER)
+
+$set(_secondaryMain,%album%)
+
+$if(
+	%releasetype%,
+	$set(
+		_secondarySuffix,
+		%_spaceChar% \(%releasetype%\)
+	)
+)
+
+$set(_secondaryFolder,%_secondaryPrefix%%_secondaryMain%%_secondarySuffix%%_pathSeparator%)
+
+
+$noop(====================================================)
+$noop(FILE NAME)
+
+$if(
+	$gt(%totaldiscs%,1),
+	$set(_trackNumberPrefix,%discnumber%-)
+)
+
+$set(
+	_trackNumberMain,
+	$num(%tracknumber%,2)
+)
+
+$set(_trackNumber,%_trackNumberPrefix%%_trackNumberMain%)
+
+$if(	
+	%podcast%,
+	$set(_filenamePrefix,%date%),
+	$set(_filenamePrefix,%_trackNumber%)
+)
+
+$if(
+	%compilation%,
+	$set(
+		_filenameMainArtist,
+		%_spaceChar%-%_spaceChar%%artist%
+	)
+)
+
+$if(
+	%title%,
+	$set(
+		_filenameMainTitle,
+		%_spaceChar%-%_spaceChar%%title%
+	)
+)
+
+$set(_filenameMain,%_filenameMainArtist%%_filenameMainTitle%)
+
+$set(_filenameSuffix,)
+
+$set(_filename, %_filenamePrefix%%_filenameMain%%_filenameSuffix%)
+
+
+$noop(====================================================)
+$noop(COMPOSE PATH)
+
+%_rootFolder%%_primaryFolder%%_secondaryFolder%%_filename%
