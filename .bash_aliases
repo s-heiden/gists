@@ -4,7 +4,7 @@
 alias g="git"
 alias l="ls -Glah"
 alias matlab='/Applications/MATLAB_R2018b.app/bin/matlab -nodesktop -nosplash $*'
-alias sourcetree="/Applications/Sourcetree.app/Contents/MacOS/Sourcetree . &"
+alias sourcetree="pwd | /Applications/Sourcetree.app/Contents/MacOS/Sourcetree &"
 #
 # Navigation Commands
 #
