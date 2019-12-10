@@ -29,6 +29,13 @@ srt() {
 }
 
 #
+# Usage: freeport [portNumber]
+#
+freeport() {
+    lsof -ti:$1 | xargs kill
+}
+
+#
 # Usage: chromify
 #
 chromify() {
