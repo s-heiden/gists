@@ -1,9 +1,5 @@
 This file specifies how I want to manage my belongings. It clarifies the questions of when to purchase items, how to store them, and how to dispose of them.
 
-## Refrigerator
-
-Also food is selected according to the principles of **simplicity, cleanliness (waste and dirt prevention) and beauty**:
-
 ### Beverages
 
 - multivitamin juice
@@ -17,6 +13,7 @@ Also food is selected according to the principles of **simplicity, cleanliness (
 - nectarines
 - apples
 - cucumber
+- carrots
 - tomatoes
 - potatoes
 - nuts
@@ -26,6 +23,7 @@ Also food is selected according to the principles of **simplicity, cleanliness (
 - quark
 - cottage cheese
 - cream cheese
+- yoghurt
 
 ### Bread
 
@@ -42,23 +40,23 @@ Also food is selected according to the principles of **simplicity, cleanliness (
 
 | Thing                              | Location                                | Notes                                |
 | ---------------------------------- | --------------------------------------- | ------------------------------------ |
-| 1Password Vault                    | Dropbox                                 |                                      |
+| 1Password Vault                    | Google Drive                            |                                      |
 | Audio Books                        | Volume "Media" on WD My Passport        |                                      |
 | Backups                            | Volume "Time Machine" on WD My Passport |                                      |
 | Inspirational Photos               | Google Drive                            |                                      |
 | Movies                             | Volume "Media" on WD My Passport        |                                      |
 | Music                              | Volume "Media" on WD My Passport        |                                      |
-| My Diaries                         | Dropbox                                 |                                      |
-| My Letters                         | Dropbox                                 |                                      |
-| My Music Projects                  | Dropbox                                 |                                      |
+| My Diaries                         | Google Drive                            |                                      |
+| My Letters                         | Google Drive                            |                                      |
+| My Music Projects                  | Google Drive                            |                                      |
 | My Photos                          | Google Photos                           | including home videos                |
-| My Reflections                     | Dropbox                                 | including diaries, and journey plans |
-| My Sport Files                     | Dropbox                                 |                                      |
+| My Reflections                     | Google Drive                            | including diaries, and journey plans |
+| My Sport Files                     | Google Drive                            |                                      |
 | Private Repositories               | github.com                              |                                      |
 | Radio Broadcasts                   | Volume "Media" on WD My Passport        |                                      |
 | Software Installers                | Volume "Media" on WD My Passport        |                                      |
 | TV Series                          | Volume "Media" on WD My Passport        |                                      |
-| User-Specific Application Settings | Dropbox                                 |                                      |
+| User-Specific Application Settings | gists Repository                        |                                      |
 | Virtual Machines                   | WD My Passport                          |                                      |
 
 ## Physical Record Collection
