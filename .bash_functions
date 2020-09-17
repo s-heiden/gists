@@ -73,5 +73,5 @@ remotes() {
 # Usage: set_pdf_author_and_title "Author" "Title" ./blubb.pdf
 #
 set_pdf_author_and_title() {
-    exiftool -Author="$1" -Title="$2" $3
+    exiftool -Author="$1" -Creator="$1" -Producer="$1" -Title="$2" $3
 }
