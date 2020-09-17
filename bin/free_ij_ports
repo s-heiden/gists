@@ -1,0 +1,30 @@
+#
+# portal
+#
+lsof -ti:8000 | xargs kill
+lsof -ti:1051 | xargs kill
+#
+# configserver
+#
+lsof -ti:8888 | xargs kill
+lsof -ti:1988 | xargs kill
+#
+# Servers Aktensystem
+#
+lsof -ti:9999 | xargs kill
+lsof -ti:1178 | xargs kill
+#
+# Servers Aktensystem Workflow
+#
+lsof -ti:9000 | xargs kill
+lsof -ti:1388 | xargs kill
+#
+# ivs
+#
+lsof -ti:8585 | xargs kill
+lsof -ti:1199 | xargs kill
+#
+# aktensystem
+#
+lsof -ti:9070 | xargs kill
+lsof -ti:1029 | xargs kill
