@@ -1,14 +1,12 @@
-#
-# Application Abbreviations
-#
-alias g="git"
-alias l="ls -Glah"
-alias matlab='/Applications/MATLAB_R2018b.app/bin/matlab -nodesktop -nosplash $*'
 alias sourcetree="pwd | /Applications/Sourcetree.app/Contents/MacOS/Sourcetree &"
-#
-# Navigation Commands
-#
-alias etron="cd /Volumes/\[C\]\ Windows\ 10\ Education\ 64-bit\ English/Users/stefan/etron-reporting/etron-reporting"
 alias gists="cd ~/Repositories/gists"
-alias dl="cd ~/Downloads/"
-
+alias postman="/Applications/Postman.app/Contents/MacOS/Postman &"
+alias e01="ssh -i ~/.ssh/id_rsa-iteratec.com heidest@172.18.96.9"
+alias t01="ssh -i ~/.ssh/id_rsa-iteratec.com heidest@172.18.96.178"
+alias q01="ssh -i ~/.ssh/id_rsa-iteratec.com heidest@172.18.96.179"
+alias q02="ssh -i ~/.ssh/id_rsa-iteratec.com heidest@172.18.96.180"
+alias k01="ssh -i ~/.ssh/id_rsa-iteratec.com heidest@172.18.95.156"
+alias p01="ssh -i ~/.ssh/id_rsa-iteratec.com heidest@172.18.95.15"
+alias p02="ssh -i ~/.ssh/id_rsa-iteratec.com heidest@172.18.95.16"
+alias replk="ssh heidest@jvrechpk01.justiz.cal.local -L 15217:172.18.97.34:1521"
+alias replp="ssh heidest@jvrechpk01.justiz.cal.local -L 15218:172.18.97.36:1521"
